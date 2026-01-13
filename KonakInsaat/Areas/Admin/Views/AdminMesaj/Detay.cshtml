@@ -1,0 +1,139 @@
+@model KonakInsaat.Areas.Admin.Models.Mesaj
+@{
+    Layout = "_Layout";
+}
+
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+            <h4 class="mb-sm-0">Mesaj Detayı</h4>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="mb-3">
+                    <a asp-area="Admin" asp-controller="AdminMesaj" asp-action="Index" class="btn btn-secondary">
+                        <i class="ri-arrow-left-line"></i> Geri Dön
+                    </a>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Ad Soyad</label>
+                            <p class="form-control-plaintext">@Model.AdSoyad</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">E-Posta</label>
+                            <p class="form-control-plaintext">
+                                <a href="mailto:@Model.Email">@Model.Email</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Telefon</label>
+                            <p class="form-control-plaintext">
+                                @if (!string.IsNullOrEmpty(Model.Telefon))
+                                {
+                                    <a href="tel:@Model.Telefon">@Model.Telefon</a>
+                                }
+                                else
+                                {
+                                    <span class="text-muted">Belirtilmemiş</span>
+                                }
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Gönderim Tarihi</label>
+                            <p class="form-control-plaintext">@Model.GonderimTarihi.ToString("dd.MM.yyyy HH:mm")</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Durum</label>
+                            <p class="form-control-plaintext">
+                                @if (Model.Okundu)
+                                {
+                                    <span class="badge bg-success">Okundu</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-warning">Okunmadı</span>
+                                }
+                                
+                                @if (Model.Yanitlandi)
+                                {
+                                    <span class="badge bg-info ms-2">Yanıtlandı</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-secondary ms-2">Yanıtlanmadı</span>
+                                }
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">IP Adresi</label>
+                            <p class="form-control-plaintext">
+                                @if (!string.IsNullOrEmpty(Model.IpAdresi))
+                                {
+                                    @Model.IpAdresi
+                                }
+                                else
+                                {
+                                    <span class="text-muted">Belirtilmemiş</span>
+                                }
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Konu</label>
+                    <p class="form-control-plaintext">@Model.Konu</p>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Mesaj</label>
+                    <div class="border rounded p-3 bg-light" style="min-height: 150px;">
+                        <p class="mb-0">@Html.Raw(Model.MesajIcerigi.Replace("\n", "<br />"))</p>
+                    </div>
+                </div>
+
+                <div class="text-end mt-4">
+                    <a asp-area="Admin" asp-controller="AdminMesaj" asp-action="Index" class="btn btn-secondary">Geri Dön</a>
+                    <a asp-area="Admin" asp-controller="AdminMesaj" asp-action="Delete" asp-route-id="@Model.MesajID" 
+                       class="btn btn-danger" 
+                       onclick="return confirm('Bu mesajı silmek istediğinize emin misiniz?');">
+                        <i class="ri-delete-bin-line"></i> Sil
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+

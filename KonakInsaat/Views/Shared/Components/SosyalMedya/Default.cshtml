@@ -1,0 +1,50 @@
+@using KonakInsaat.Areas.Admin.Models
+@model IEnumerable<Sosyal>
+
+@if (Model != null && Model.Any())
+{
+    <div class="social-icon">
+        @foreach (var sosyal in Model)
+        {
+            @if (!string.IsNullOrEmpty(sosyal.Link))
+            {
+                // Platform adına göre icon dosyasını belirle
+                string iconPath = "/img/ig.png"; // Varsayılan
+                string iconAlt = sosyal.PlatformAdi ?? "Social Media";
+                string iconStyle = "width: 35px;";
+
+                if (!string.IsNullOrEmpty(sosyal.PlatformAdi))
+                {
+                    var platformLower = sosyal.PlatformAdi.ToLower();
+                    if (platformLower.Contains("facebook") || platformLower.Contains("fb"))
+                    {
+                        iconPath = "/img/fb.png";
+                        iconStyle = "width: 40px;";
+                    }
+                    else if (platformLower.Contains("instagram") || platformLower.Contains("ig"))
+                    {
+                        iconPath = "/img/ig.png";
+                        iconStyle = "width: 35px;";
+                    }
+                    else if (platformLower.Contains("youtube") || platformLower.Contains("yt"))
+                    {
+                        iconPath = "/img/yt.png";
+                        iconStyle = "width: 35px;";
+                    }
+                }
+
+                <a href="@sosyal.Link" target="_blank" rel="noopener noreferrer">
+                    <img src="@Url.Content(iconPath)" style="@iconStyle" alt="@iconAlt">
+                </a>
+            }
+        }
+    </div>
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,147 @@
+@using KonakInsaat.Areas.Admin.Models
+@model Proje
+@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer L
+@{
+    Layout = "_Layout";
+    var coverImage = !string.IsNullOrEmpty(Model.AnaResimYolu) ? Url.Content(Model.AnaResimYolu) : "upload/background1.jpg";
+    var gallery = Model.ProjeResimleri?.OrderBy(r => r.Sira).ToList() ?? new List<ProjeResim>();
+}
+
+<div class="content-wrapper">
+    <section class="content-lines-wrapper">
+        <div class="content-lines-inner">
+            <div class="content-lines"></div>
+        </div>
+    </section>
+
+    <section class="banner-header banner-img valign bg-img bg-fixed" data-overlay-darkgray="1" data-background="@coverImage"></section>
+
+    <section class="section-padding2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="section-title2">@Model.ProjeAdi</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    @if (!string.IsNullOrEmpty(Model.Aciklama))
+                    {
+                        @Html.Raw(Model.Aciklama)
+                    }
+                    else if (!string.IsNullOrEmpty(Model.KisaAciklama))
+                    {
+                        <p>@Model.KisaAciklama</p>
+                    }
+                    else
+                    {
+                        <p>@L["PROJECT_DETAILS_DEFAULT_DESCRIPTION"]</p>
+                    }
+                </div>
+                <div class="col-md-4">
+                    @if (!string.IsNullOrEmpty(Model.BuildYear))
+                    {
+                        <p><b>Build Year  : </b> @Model.BuildYear</p>
+                    }
+                    <p><b>Project Name  : </b> @Model.ProjeAdi</p>
+                    @if (!string.IsNullOrEmpty(Model.Konum))
+                    {
+                        <p><b>Location : </b> @Model.Konum</p>
+                    }
+                    @if (!string.IsNullOrEmpty(Model.OdaSayisi))
+                    {
+                        <p><b>@L["PROJECT_DETAIL_ROOMS"] : </b> @Model.OdaSayisi</p>
+                    }
+                    @if (!string.IsNullOrEmpty(Model.Metrekare))
+                    {
+                        <p><b>@L["PROJECT_DETAIL_SQM"] : </b> @Model.Metrekare</p>
+                    }
+                    @if (Model.TeslimTarihi.HasValue)
+                    {
+                        <p><b>@L["PROJECT_DETAIL_DELIVERY"] : </b> @Model.TeslimTarihi.Value.ToString("dd MMM yyyy")</p>
+                    }
+                    @if (Model.ProjeBaslangicTarihi.HasValue)
+                    {
+                        <p><b>@L["PROJECT_DETAIL_START"] : </b> @Model.ProjeBaslangicTarihi.Value.ToString("dd MMM yyyy")</p>
+                    }
+                    @if (Model.ProjeTamamlanmaTarihi.HasValue)
+                    {
+                        <p><b>@L["PROJECT_DETAIL_FINISH"] : </b> @Model.ProjeTamamlanmaTarihi.Value.ToString("dd MMM yyyy")</p>
+                    }
+                    @if (!string.IsNullOrEmpty(Model.Telefon1))
+                    {
+                        <p><b>Phone 1 : </b> @Model.Telefon1 @Model.Telefon1Diller</p>
+                    }
+                    @if (!string.IsNullOrEmpty(Model.Telefon2))
+                    {
+                        <p><b>Phone 2 : </b> @Model.Telefon2 @Model.Telefon2Diller</p>
+                    }
+                </div>
+            </div>
+
+            @if (!string.IsNullOrEmpty(Model.OrtakAlanlar))
+            {
+                <div class="row mt-30">
+                    <div class="col-12">
+                        <h3>@L["PROJECT_DETAIL_COMMON_AREAS"]</h3>
+                        @Html.Raw(Model.OrtakAlanlar)
+                    </div>
+                </div>
+            }
+
+            <div class="row mt-30">
+                @if (gallery.Any())
+                {
+                    foreach (var resim in gallery)
+                    {
+                        <div class="col-md-4 gallery-item">
+                            <a href="@Url.Content(resim.ResimYolu)" title="@Model.ProjeAdi" class="img-zoom">
+                                <div class="gallery-box">
+                                    <div class="gallery-img">
+                                        <img src="@Url.Content(resim.ResimYolu)" class="img-fluid mx-auto d-block" alt="@Model.ProjeAdi">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <div class="col-12">
+                        <div class="alert alert-secondary text-center">
+                            @L["PROJECT_DETAIL_NO_GALLERY"]
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <h2 style="margin-top: 70px;">Location</h2>
+            <div class="row" style="margin-top: 30px;margin-bottom: -70px;">
+                <div class="col-md-12 mb-30 animate-box" data-animate-effect="fadeInUp">
+                    @if (!string.IsNullOrEmpty(Model.GoogleMapsUrl))
+                    {
+                        <iframe src="@Model.GoogleMapsUrl"
+                                width="100%" height="500"
+                                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    }
+                    else
+                    {
+                        <iframe src="https://www.google.com/maps?q=,&output=embed"
+                                width="100%" height="500"
+                                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @await Html.PartialAsync("_ProjectContactAndClients")
+</div>
+
+
+
+
+
+
+
+

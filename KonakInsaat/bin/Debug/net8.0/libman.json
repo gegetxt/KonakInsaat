@@ -1,0 +1,30 @@
+{
+  "version": "3.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "apexcharts@5.3.5",
+      "destination": "wwwroot/lib/apexcharts/"
+    },
+    {
+      "library": "feather-icons@4.29.2",
+      "destination": "wwwroot/lib/feather-icons/"
+    },
+    {
+      "library": "node-waves@0.7.6",
+      "destination": "wwwroot/lib/node-waves/"
+    },
+    {
+      "library": "prism@9000.0.1",
+      "destination": "wwwroot/lib/prism/"
+    },
+    {
+      "library": "quill@2.0.2",
+      "destination": "wwwroot/lib/quill/"
+    },
+    {
+      "library": "simplebar@6.3.2",
+      "destination": "wwwroot/lib/simplebar/"
+    }
+  ]
+}

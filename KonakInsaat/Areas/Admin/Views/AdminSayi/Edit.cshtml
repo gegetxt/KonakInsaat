@@ -1,0 +1,118 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+<form action="/Admin/AdminSayi/Edit/1" enctype="multipart/form-data" method="post">
+    <div class="row">
+        <div class="col-12">
+            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                <h4 class="mb-sm-0">Sayı - Güncelle</h4>
+
+            </div>
+        </div>
+    </div>
+    <!-- end page title -->
+    <div class="row">
+        <div class="col-xxl-12">
+            <div class="card">
+                <div class="card-header align-items-center d-flex">
+
+                    <div class="flex-shrink-0">
+                    </div>
+                </div><!-- end card header -->
+
+                <div class="card-body">
+
+                    <input data-val="true" data-val-number="The field SayiID must be a number." data-val-required="The SayiID field is required." id="SayiID" name="SayiID" type="hidden" value="1" />
+                    <div class="live-preview">
+                        <form action="javascript:void(0);">
+                            <div class="row">
+
+
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label class="form-label" for="Baslik">Baslik</label>
+                                        <input class="form-control text-box single-line" id="Baslik" name="Baslik" type="text" value="60" />
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Baslik" data-valmsg-replace="true"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label class="form-label" for="Baslik_EN">Baslik_EN</label>
+                                        <input class="form-control text-box single-line" id="Baslik_EN" name="Baslik_EN" type="text" value="" />
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Baslik_EN" data-valmsg-replace="true"></span>
+                                    </div>
+                                </div><!--end col-->
+
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label class="form-label" for="Baslik_RU">Baslik_RU</label>
+                                        <input class="form-control text-box single-line" id="Baslik_RU" name="Baslik_RU" type="text" value="" />
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Baslik_RU" data-valmsg-replace="true"></span>
+                                    </div>
+                                </div><!--end col-->
+
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label class="form-label" for="Aciklama">Aciklama</label>
+                                        <input class="form-control text-box single-line" id="Aciklama" name="Aciklama" type="text" value="Yıllık Tecrübe" />
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Aciklama" data-valmsg-replace="true"></span>
+                                    </div>
+                                </div><!--end col-->
+
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label class="form-label" for="Aciklama_EN">Aciklama_EN</label>
+                                        <input class="form-control text-box single-line" id="Aciklama_EN" name="Aciklama_EN" type="text" value="" />
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Aciklama_EN" data-valmsg-replace="true"></span>
+                                    </div>
+                                </div><!--end col-->
+
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label class="form-label" for="Aciklama_RU">Aciklama_RU</label>
+                                        <input class="form-control text-box single-line" id="Aciklama_RU" name="Aciklama_RU" type="text" value="" />
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Aciklama_RU" data-valmsg-replace="true"></span>
+                                    </div>
+                                </div><!--end col-->
+
+
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <div>
+                                            <label class="form-label" for="Ikon">Ikon</label>
+                                            <input class="form-control text-box single-line" id="Ikon" name="Ikon" type="file" value="/Resim/06.svg" />
+                                            <span class="field-validation-valid text-danger" data-valmsg-for="Ikon" data-valmsg-replace="true"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <br>
+                                <br>
+
+                                <div class="col-lg-12">
+                                    <div class="text-end">
+                                        <a class="btn btn-danger" href="/Admin/AdminSayi">Geri D&#246;n</a>
+                                        <button type="submit" class="btn btn-secondary waves-effect waves-light">Güncelle <i class="icon-arrow-right14 position-right"></i></button>
+                                    </div>
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end col -->
+
+
+    </div>
+</form>
+
+</div><!-- end col -->
+</div>
+<!-- container-fluid -->
+</div>
+<!-- End Page-content -->

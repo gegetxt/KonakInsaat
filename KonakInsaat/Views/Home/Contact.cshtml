@@ -1,0 +1,206 @@
+﻿@using KonakInsaat.Areas.Admin.Models
+@model IEnumerable<Iletisim>
+@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer L
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = L["Title"];
+
+    var merkez = Model?.FirstOrDefault(i => i.Baslik == "Merkez Ofis");
+    var satis = Model?.FirstOrDefault(i => i.Baslik == "Satış Ofisi");
+}
+
+
+
+
+
+   
+    <div class="content-wrapper">
+        <!-- Lines -->
+        <section class="content-lines-wrapper">
+            <div class="content-lines-inner">
+                <div class="content-lines"></div>
+            </div>
+        </section>
+        <!-- Header Banner -->
+        <section class="banner-header banner-img bg-img bg-fixed pb-0" data-background="upload/background1.jpg" data-overlay-darkgray="1"> </section>
+        <!-- Contact -->
+        <section class="section-padding2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 animate-box" data-animate-effect="fadeInUp">
+                        <h2 class="section-title"><span>İLETİŞİM!</span></h2>
+                    </div>
+                </div>
+                <div class="row mb-90">
+                    <div class="col-md-4 mb-30 animate-box" data-animate-effect="fadeInUp">
+                        <p><b>@(merkez?.Baslik ?? "Merkez Ofis")</b></p>
+                        @if (merkez != null)
+                        {
+                            @if (!string.IsNullOrEmpty(merkez.Telefon))
+                            {
+                                <p><b>Telefon :</b> <a href="tel:@merkez.Telefon">@merkez.Telefon</a></p>
+                            }
+                            @if (!string.IsNullOrEmpty(merkez.Mail))
+                            {
+                                <p><b>E-Posta :</b> <a href="mailto:@merkez.Mail">@merkez.Mail</a></p>
+                            }
+                            @if (!string.IsNullOrEmpty(merkez.Adres_1))
+                            {
+                                <p><b>Adres :</b> @merkez.Adres_1</p>
+                            }
+                        }
+                    </div>
+
+                    <div class="col-md-4 mb-30 animate-box" data-animate-effect="fadeInUp">
+                        <p><b>@(satis?.Baslik ?? "Satış Ofisi")</b></p>
+                        @if (satis != null)
+                        {
+                            @if (!string.IsNullOrEmpty(satis.Telefon))
+                            {
+                                <p><b>Telefon :</b> <a href="tel:@satis.Telefon">@satis.Telefon</a></p>
+                            }
+                            @if (!string.IsNullOrEmpty(satis.Mail))
+                            {
+                                <p><b>E-Posta :</b> <a href="mailto:@satis.Mail">@satis.Mail</a></p>
+                            }
+                            @if (!string.IsNullOrEmpty(satis.Adres_1))
+                            {
+                                <p><b>Adres :</b> @satis.Adres_1</p>
+                            }
+                        }
+                    </div>
+
+                    <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
+                        <p><b></b></p>
+
+
+
+                        <form asp-controller="Base" asp-action="SubmitContactForm" method="post" class="contact__form">
+                            <!-- Form elements -->
+                            <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <input name="adi" type="text" maxlength="100" placeholder="@L["FORM_NAME_PLACEHOLDER"]" required>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input name="email" type="email" maxlength="100" placeholder="@L["FORM_EMAIL_PLACEHOLDER"]" required>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input name="tel" type="text" maxlength="100" placeholder="@L["FORM_PHONE_PLACEHOLDER"]">
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <input name="konu" type="text" maxlength="200" placeholder="@L["FORM_SUBJECT_PLACEHOLDER"]" required>
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <textarea name="mesaj" id="message" maxlength="500" cols="30" rows="4" placeholder="@L["FORM_MESSAGE_PLACEHOLDER"]" required></textarea>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit" name="mgonder" class="btn btn-modern" style="color:black;" onClick="window.location.reload();">@L["BUTTON_SEND_MESSAGE"]</button>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            <div class="row" style="margin-bottom: -40px;">
+                @if (merkez != null)
+                {
+                    <div class="col-md-6 mb-30 animate-box" data-animate-effect="fadeInUp">
+                        <h2>@merkez.Baslik</h2>
+                        <div id="googlemaps" class="google-map">
+                            <iframe src="@(string.IsNullOrEmpty(merkez.Harita) ? "https://www.google.com/maps?q=36.551150,31.977946&output=embed" : merkez.Harita)"
+                                    width="100%" height="400" style="border:0;" allowfullscreen loading="lazy"></iframe>
+                        </div>
+                    </div>
+                }
+                @if (satis != null)
+                {
+                    <div class="col-md-6 mb-30 animate-box" data-animate-effect="fadeInUp">
+                        <h2>@satis.Baslik</h2>
+                        <div id="googlemaps" class="google-map">
+                            <iframe src="@(string.IsNullOrEmpty(satis.Harita) ? "https://www.google.com/maps?q=36.492249,32.0900059&output=embed" : satis.Harita)"
+                                    width="100%" height="400" style="border:0;" allowfullscreen loading="lazy"></iframe>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            </div>
+        </section>
+        <section class="testimonials">
+            <div class="background bg-img bg-fixed section-padding pb-0" data-background="../upload/background.jpg" data-overlay-dark="5">
+                <div class="container">
+                    <div class="row">
+                        <!-- Promo video -->
+                        <div class="col-md-6">
+                            <div class="vid-area">
+                                <div class="vid-icon">
+                                    <a class="play-button vid" href="https://www.youtube.com/watch?v=_3kH3iv6zow">
+                                        <svg class="circle-fill">
+                                            <circle cx="43" cy="43" r="39" stroke="#fff" stroke-width=".5"></circle>
+                                        </svg>
+                                        <svg class="circle-track">
+                                            <circle cx="43" cy="43" r="39" stroke="none" stroke-width="1" fill="none"></circle>
+                                        </svg> <span class="polygon">
+                                            <i class="ti-control-play"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="cont mt-15 mb-30">
+                                    <h5>KONAK CONSTRUCTION</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 offset-md-1">
+                            <div class="testimonials-box animate-box" data-animate-effect="fadeInUp">
+                                <div class="head-box">
+                                    <h4>@L["SECTION_CALL_US_TITLE"]</h4>
+                                    <p>@L["SECTION_CALL_US_TEXT"]</p>
+                                </div>
+                                <div class="">
+                                    <div class="item">
+                                        <span class="quote"><img src="img/quot.png" alt=""></span>
+
+                                        <form asp-controller="Base" asp-action="SubmitContactForm" method="post" class="contact__form">
+                                            <!-- Form elements -->
+                                            <div class="row">
+                                                <div class="col-md-12 form-group">
+                                                    <input name="adi" type="text" maxlength="100" placeholder="@L["FORM_NAME_PLACEHOLDER"]" required>
+                                                </div>
+                                                <div class="col-md-12 form-group">
+                                                    <input name="mail" type="email" maxlength="100" placeholder="@L["FORM_EMAIL_PLACEHOLDER"]" required>
+                                                </div>
+                                                <div class="col-md-12 form-group">
+                                                    <input name="tel" type="text" maxlength="100" placeholder="@L["FORM_PHONE_PLACEHOLDER"]">
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <button type="submit" name="mgonder" class="btn btn-modern" style="color:black;" onClick="window.location.reload();">@L["BUTTON_SEND_MESSAGE"]</button>
+
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="clients">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 ">
+                        <div class="clients-logo">
+                            <a href="https://drive.google.com/drive/folders/1pfpwkH7snq2gtS-wSvaswlW1t5gs64cP?usp=sharing" target="_blank"><img src="upload/drv.png" alt=""></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+
+        </div>
+

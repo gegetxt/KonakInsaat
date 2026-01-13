@@ -1,0 +1,113 @@
+@model IEnumerable<KonakInsaat.Areas.Admin.Models.ProjeResim>
+@{
+    Layout = "_Layout";
+}
+
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+            <h4 class="mb-sm-0">Proje Detay Resimleri - @ViewBag.ProjeAdi</h4>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="mb-3">
+                    <a asp-area="Admin" asp-controller="AdminProje" asp-action="Index" class="btn btn-secondary">
+                        <i class="ri-arrow-left-line"></i> Geri Dön
+                    </a>
+                </div>
+
+                @if (TempData["Success"] != null)
+                {
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        @TempData["Success"]
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                }
+
+                <div class="mb-4">
+                    <h5>Yeni Resim Ekle</h5>
+                    <form asp-area="Admin" asp-controller="AdminProje" asp-action="ResimEkle" method="post" enctype="multipart/form-data">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="projeID" value="@ViewBag.ProjeID" />
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="mb-3">
+                                    <label class="form-label">Resim Dosyası</label>
+                                    <input type="file" name="resimDosyasi" class="form-control" required />
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3">
+                                    <label class="form-label">Başlık</label>
+                                    <input type="text" name="baslik" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="mb-3">
+                                    <label class="form-label">Sıra</label>
+                                    <input type="number" name="sira" class="form-control" value="0" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="mb-3">
+                                    <label class="form-label">&nbsp;</label>
+                                    <button type="submit" class="btn btn-primary w-100">Resim Ekle</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <hr />
+
+                <div class="row">
+                    @if (Model != null && Model.Any())
+                    {
+                        foreach (var resim in Model.OrderBy(r => r.Sira))
+                        {
+                            <div class="col-md-3 mb-4">
+                                <div class="card">
+                                    <img src="@resim.ResimYolu" class="card-img-top" alt="@resim.Baslik" style="height: 200px; object-fit: cover;">
+                                    <div class="card-body">
+                                        <h6 class="card-title">@(resim.Baslik ?? "Başlık Yok")</h6>
+                                        <p class="card-text">
+                                            <small class="text-muted">Sıra: @resim.Sira</small><br />
+                                            <small class="text-muted">Tarih: @resim.EklenmeTarihi.ToString("dd.MM.yyyy")</small>
+                                        </p>
+                                        <a asp-area="Admin" asp-controller="AdminProje" asp-action="ResimSil" asp-route-id="@resim.ResimID" 
+                                           class="btn btn-danger btn-sm" 
+                                           onclick="return confirm('Bu resmi silmek istediğinize emin misiniz?');">
+                                            <i class="ri-delete-bin-line"></i> Sil
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <div class="col-12">
+                            <div class="alert alert-info">
+                                Bu proje için henüz detay resmi eklenmemiş.
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+

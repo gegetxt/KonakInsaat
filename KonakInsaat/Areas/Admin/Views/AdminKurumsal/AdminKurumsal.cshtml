@@ -1,0 +1,57 @@
+﻿@model KonakInsaat.Areas.Admin.Models.Kurumsal
+@{
+    Layout = "_Layout";
+}
+
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+            <h4 class="mb-sm-0">Kurumsal</h4>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <table class="table table-bordered dt-responsive nowrap table-striped align-middle" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-ordering="true" style="width: 150px;">Resim</th>
+                            <th data-ordering="false">Başlık</th>
+                            <th style="width: 140px;">İşlem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="@(string.IsNullOrEmpty(Model.HakkimizdaResim) ? "/upload/thump_1653662938.jpg" : Model.HakkimizdaResim)" width="120" height="140" class="rounded" alt="Kurumsal">
+                            </td>
+                            <td>
+                                @if (!string.IsNullOrEmpty(Model.HakkimizdaBaslik))
+                                {
+                                    <strong>@Model.HakkimizdaBaslik</strong>
+                                }
+                                else
+                                {
+                                    <span class="text-muted">Henüz başlık girilmemiş.</span>
+                                }
+                            </td>
+                            <td class="text-center">
+                                <a class="btn btn-warning waves-effect waves-light"
+                                   asp-area="Admin"
+                                   asp-controller="AdminKurumsal"
+                                   asp-action="Edit"
+                                   asp-route-id="@Model.KurumsalID">
+                                    Güncelle
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

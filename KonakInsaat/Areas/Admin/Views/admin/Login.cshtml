@@ -1,0 +1,194 @@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <title>Konak Construction Admin Paneli</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="~/assets/images/konak/favicon.png" />
+
+    <!-- CSS -->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/icons.min.css" rel="stylesheet" />
+    <link href="~/css/app.min.css" rel="stylesheet" />
+    <link href="~/css/custom.min.css" rel="stylesheet" />
+<style>
+    .auth-one-bg {
+        background-image: url('/assets/images/background1.jpg') !important;
+        background-size: cover !important;
+        background-position: center top !important;
+        background-repeat: no-repeat !important;
+    }
+</style>
+    <!-- SCRIPTS (head içinde bırakılabilir) -->
+    <script src="~/js/layout.js"></script>
+</head>
+
+<body class="login-container">
+
+    <div class="auth-page-wrapper pt-5">
+
+        <!-- Background -->
+        <div class="auth-one-bg-position auth-one-bg" id="auth-particles">
+            <div class="bg-overlay"></div>
+
+            <div class="shape">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120">
+                    <path d="M 0,36 C 144,53.6 432,123.2 720,124 C 1008,124.8 1296,56.8 1440,40L1440 140L0 140z" />
+                </svg>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="auth-page-content">
+            <div class="container">
+
+                <!-- Logo ve Başlık -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-center mt-sm-5 mb-4 text-white-50">
+                            <div>
+                                <a asp-area="" asp-controller="Home" asp-action="Index"
+                                   class="d-inline-block auth-logo">
+                                    @await Component.InvokeAsync("Logo", new { style = "width: 280px;" })
+                                </a>
+                            </div>
+                            <p class="mt-3 fs-15 fw-medium" style="color:#fff;">
+                                Admin Paneli Giriş Ekranı
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form Alanı -->
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-6 col-xl-5">
+                        <div class="card mt-4">
+                            <div class="card-body p-4">
+                                <div class="p-2 mt-4">
+
+                                    @if (TempData["Error"] != null)
+                                    {
+                                        <div class="alert alert-danger" role="alert">
+                                            @TempData["Error"]
+                                        </div>
+                                    }
+
+                                    @if (TempData["Success"] != null)
+                                    {
+                                        <div class="alert alert-success" role="alert">
+                                            @TempData["Success"]
+                                        </div>
+                                    }
+
+                                    <form asp-area="Admin"
+                                          asp-controller="admin"
+                                          asp-action="Login"
+                                          method="post"
+                                          class="row"
+                                          id="loginForm">
+
+                                        @Html.AntiForgeryToken()
+
+                                        <div class="mb-3">
+                                            <label class="form-label">Kullanıcı Adı</label>
+                                            <input type="text" class="form-control"
+                                                   name="kullaniciAdi"
+                                                   placeholder="Kullanıcı adı"
+                                                   autocomplete="username" required />
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="form-label">Şifre</label>
+                                            <div class="position-relative auth-pass-inputgroup mb-3">
+                                                <input type="password"
+                                                       name="sifre"
+                                                       class="form-control pe-5 password-input"
+                                                       placeholder="Şifre"
+                                                       autocomplete="current-password"
+                                                       required />
+                                                <button type="button"
+                                                        class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted password-addon"
+                                                        id="password-addon">
+                                                    <i class="ri-eye-fill align-middle"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="mt-4">
+                                            <button type="submit"
+                                                    class="btn btn-success w-100">Giriş Yap</button>
+                                        </div>
+
+                                        <!-- Arenatürk Logo -->
+                                        <div class="mt-4 text-center">
+                                            <div class="signin-other-title">
+                                                <h5 class="fs-13 mb-4 title">
+                                                    <img src="~/assets/images/arenaturk-kırmızı.png"
+                                                         style="width:160px; height:50px;" />
+                                                </h5>
+                                            </div>
+                                        </div>
+
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-4 text-center"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-center">
+                            <p class="mb-0 text-muted">
+                                &copy; @DateTime.Now.Year Tüm Hakları Saklıdır.
+                                Created By <a href="https://arenaturk.net">Arenatürk</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- JS -->
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/simplebar/simplebar.min.js"></script>
+    <script src="~/lib/node-waves/waves.min.js"></script>
+    <script src="~/lib/feather-icons/feather.min.js"></script>
+    <script src="~/js/lord-icon-2.1.0.js"></script>
+    <script src="~/js/plugins.js"></script>
+
+    <script>
+        // Enter tuşu ile form submit
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('loginForm');
+            const inputs = form.querySelectorAll('input[type="text"], input[type="password"]');
+            
+            inputs.forEach(input => {
+                input.addEventListener('keypress', function(e) {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        form.submit();
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

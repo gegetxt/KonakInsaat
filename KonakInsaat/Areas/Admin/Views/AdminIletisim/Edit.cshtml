@@ -1,0 +1,119 @@
+﻿@model KonakInsaat.Areas.Admin.Models.Iletisim
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "İletişim - Güncelle";
+}
+
+<form asp-area="Admin" asp-controller="AdminIletisim" asp-action="Edit" enctype="multipart/form-data" method="post">
+    <div class="row">
+        <div class="col-12">
+            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                <h4 class="mb-sm-0">İletişim - @(Model?.Baslik ?? "Güncelle")</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xxl-12">
+            <div class="card">
+                <div class="card-header align-items-center d-flex">
+                    <h4 class="card-title mb-0 flex-grow-1">İletişim Bilgileri - @(Model?.Baslik ?? "Güncelle")</h4>
+                </div>
+
+                <div class="card-body">
+                    <input asp-for="IletisimID" type="hidden" />
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <label asp-for="Baslik" class="form-label"></label>
+                                <input asp-for="Baslik" class="form-control" placeholder="Merkez Ofis / Satış Ofisi" />
+                                <span asp-validation-for="Baslik" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <label asp-for="Adres_1" class="form-label"></label>
+                                <input asp-for="Adres_1" class="form-control" />
+                                <span asp-validation-for="Adres_1" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <label asp-for="Telefon" class="form-label"></label>
+                                <input asp-for="Telefon" class="form-control" />
+                                <span asp-validation-for="Telefon" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <label asp-for="Gsm" class="form-label"></label>
+                                <input asp-for="Gsm" class="form-control" />
+                                <span asp-validation-for="Gsm" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <label asp-for="Whatsapp" class="form-label"></label>
+                                <input asp-for="Whatsapp" class="form-control" />
+                                <span asp-validation-for="Whatsapp" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <label asp-for="Mail" class="form-label"></label>
+                                <input asp-for="Mail" class="form-control" type="email" />
+                                <span asp-validation-for="Mail" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <label asp-for="Harita" class="form-label"></label>
+                                <input asp-for="Harita" class="form-control" />
+                                <span asp-validation-for="Harita" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <label asp-for="ResimFile" class="form-label"></label>
+                                <input asp-for="ResimFile" class="form-control" type="file" accept="image/*" />
+                                <span asp-validation-for="ResimFile" class="text-danger"></span>
+                                @if (!string.IsNullOrEmpty(Model.Resim))
+                                {
+                                    <div class="mt-2">
+                                        <img src="@Model.Resim" alt="Mevcut Resim" style="max-width: 200px; max-height: 200px;" />
+                                    </div>
+                                }
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="text-end">
+                                <a asp-area="Admin" asp-controller="AdminIletisim" asp-action="Index" class="btn btn-danger">Geri Dön</a>
+                                <button type="submit" class="btn btn-secondary waves-effect waves-light">
+                                    Güncelle <i class="icon-arrow-right14 position-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

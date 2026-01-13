@@ -1,0 +1,97 @@
+@model KonakInsaat.Areas.Admin.Models.OfficeLocation
+@{
+    Layout = "_Layout";
+}
+
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+            <h4 class="mb-sm-0">Ofis - @Model.Ad</h4>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xxl-10">
+        <div class="card">
+            <div class="card-body">
+                <form asp-area="Admin" asp-controller="AdminOffice" asp-action="Edit" method="post">
+                    <input type="hidden" asp-for="OfficeLocationID" />
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="Ad" class="form-label"></label>
+                                <input asp-for="Ad" class="form-control" />
+                                <span asp-validation-for="Ad" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="mb-3">
+                                <label asp-for="Tip" class="form-label"></label>
+                                <input asp-for="Tip" class="form-control" placeholder="Merkez / Satış vb." />
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="mb-3">
+                                <label asp-for="Sira" class="form-label"></label>
+                                <input asp-for="Sira" type="number" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Adres" class="form-label"></label>
+                        <textarea asp-for="Adres" class="form-control" rows="3"></textarea>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="mb-3">
+                                <label asp-for="Telefon" class="form-label"></label>
+                                <input asp-for="Telefon" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="mb-3">
+                                <label asp-for="Email" class="form-label"></label>
+                                <input asp-for="Email" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="mb-3 d-flex align-items-center">
+                                <div class="form-check mt-4">
+                                    <input asp-for="Aktif" class="form-check-input" type="checkbox" />
+                                    <label asp-for="Aktif" class="form-check-label"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="HaritaUrl" class="form-label"></label>
+                        <input asp-for="HaritaUrl" class="form-control" />
+                        <div class="form-text">
+                            Google Maps iframe linkindeki <code>src</code> değerini buraya yapıştır (ör: <code>https://www.google.com/maps?q=36.551150,31.977946&amp;output=embed</code>).
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="ResimYolu" class="form-label"></label>
+                        <input asp-for="ResimYolu" class="form-control" />
+                        <div class="form-text">
+                            Varsa ofis görseli yolu (ör: <code>/upload/ofis/merkez-ofis.jpg</code>).
+                        </div>
+                    </div>
+
+                    <div class="text-end">
+                        <a asp-area="Admin" asp-controller="AdminOffice" asp-action="Index" class="btn btn-secondary">Geri Dön</a>
+                        <button type="submit" class="btn btn-primary">Kaydet</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+

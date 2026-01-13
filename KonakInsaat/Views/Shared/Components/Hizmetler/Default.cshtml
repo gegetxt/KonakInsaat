@@ -1,0 +1,14 @@
+@using KonakInsaat.Areas.Admin.Models
+@model IEnumerable<Hizmet>
+@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer L
+
+@if (Model != null && Model.Any())
+{
+    @foreach (var hizmet in Model)
+    {
+        <li class="dropdown-item">
+            <a asp-controller="Service" asp-action="Details" asp-route-id="@hizmet.Id">@(!string.IsNullOrEmpty(hizmet.Baslik) ? hizmet.Baslik : "Hizmet")</a>
+        </li>
+    }
+}
+

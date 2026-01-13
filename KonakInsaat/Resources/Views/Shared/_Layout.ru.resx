@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="NAV_HOME" xml:space="preserve">
+  <value>Главная</value>
+</data>
+	<data name="NAV_CORPORATE" xml:space="preserve">
+  <value>О компании</value>
+</data>
+	<data name="NAV_ABOUT_US" xml:space="preserve">
+  <value>О нас</value>
+</data>
+	<data name="NAV_TEAM" xml:space="preserve">
+  <value>Команда</value>
+</data>
+	<data name="NAV_OUR_OFFICES" xml:space="preserve">
+  <value>Наши офисы</value>
+</data>
+	<data name="NAV_MAIN_OFFICE" xml:space="preserve">
+  <value>Главный офис</value>
+</data>
+	<data name="NAV_SALES_OFFICE" xml:space="preserve">
+  <value>Офис продаж</value>
+</data>
+	<data name="NAV_OUR_PROJECTS" xml:space="preserve">
+  <value>Наши проекты</value>
+</data>
+	<data name="NAV_ONGOING_PROJECTS" xml:space="preserve">
+  <value>Текущие проекты</value>
+</data>
+	<data name="NAV_COMPLETED_PROJECTS" xml:space="preserve">
+  <value>Завершенные проекты</value>
+</data>
+	<data name="NAV_COMING_SOON" xml:space="preserve">
+  <value>Скоро...</value>
+</data>
+	<data name="NAV_OUR_SERVICES" xml:space="preserve">
+  <value>Наши услуги</value>
+</data>
+	<data name="NAV_URBAN_TRANSFORMATION" xml:space="preserve">
+  <value>Городская трансформация</value>
+</data>
+	<data name="NAV_PRICE_LIST" xml:space="preserve">
+  <value>Прайс-лист</value>
+</data>
+	<data name="NAV_GOOGLE_DRIVE" xml:space="preserve">
+  <value>Google Drive</value>
+</data>
+	<data name="NAV_CONTACT" xml:space="preserve">
+  <value>Контакты</value>
+</data>
+	<data name="NAV_LANGUAGE_TR" xml:space="preserve">
+  <value>Türkçe</value>
+</data>
+	<data name="NAV_LANGUAGE_EN" xml:space="preserve">
+  <value>English</value>
+</data>
+	<data name="NAV_LANGUAGE_DE" xml:space="preserve">
+  <value>Deutsch</value>
+</data>
+	<data name="NAV_LANGUAGE_RU" xml:space="preserve">
+  <value>Русский</value>
+</data>
+	<data name="FOOTER_CONTACT_INFO" xml:space="preserve">
+  <value>Контактная информация</value>
+</data>
+	<data name="FOOTER_EMAIL" xml:space="preserve">
+  <value>Электронная почта</value>
+</data>
+	<data name="FOOTER_ADDRESS" xml:space="preserve">
+  <value>Адрес</value>
+</data>
+	<data name="FOOTER_COPYRIGHT" xml:space="preserve">
+  <value>Konak Construction © Copyright 2022. Все права защищены</value>
+</data>
+	<data name="FOOTER_WEB_DESIGN" xml:space="preserve">
+  <value>Web Design Alanya</value>
+</data>
+</root>

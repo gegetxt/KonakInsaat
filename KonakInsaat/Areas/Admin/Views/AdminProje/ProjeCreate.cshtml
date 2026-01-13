@@ -1,0 +1,164 @@
+﻿@model KonakInsaat.Areas.Admin.Models.Proje
+
+@{
+    Layout = "_Layout";
+}
+
+<form asp-action="Create"
+      asp-controller="AdminProje"
+      asp-area="Admin"
+      method="post"
+      enctype="multipart/form-data">
+    <div class="row">
+        <div class="col-12">
+            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                <h4 class="mb-sm-0">Proje - Ekle</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xxl-12">
+            <div class="card">
+                <div class="card-header align-items-center d-flex">
+                    <h4 class="card-title mb-0 flex-grow-1">Proje Bilgileri</h4>
+                </div>
+
+                <div class="card-body">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label asp-for="ProjeAdi" class="form-label"></label>
+                            <input asp-for="ProjeAdi" class="form-control" />
+                            <span asp-validation-for="ProjeAdi" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label asp-for="ProjeDurumu" class="form-label"></label>
+                            <select asp-for="ProjeDurumu" class="form-select">
+                                <option value="Devam Ediyor">Devam Ediyor</option>
+                                <option value="Tamamlandı">Tamamlandı</option>
+                                <option value="Yakında">Yakında</option>
+                            </select>
+                            <span asp-validation-for="ProjeDurumu" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label asp-for="Konum" class="form-label"></label>
+                            <input asp-for="Konum" class="form-control" />
+                            <span asp-validation-for="Konum" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label asp-for="Metrekare" class="form-label"></label>
+                            <input asp-for="Metrekare" class="form-control" />
+                            <span asp-validation-for="Metrekare" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label asp-for="OdaSayisi" class="form-label"></label>
+                            <input asp-for="OdaSayisi" class="form-control" />
+                            <span asp-validation-for="OdaSayisi" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label asp-for="TeslimTarihi" class="form-label"></label>
+                            <input asp-for="TeslimTarihi" type="date" class="form-control" />
+                            <span asp-validation-for="TeslimTarihi" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label asp-for="ProjeAdi_EN" class="form-label"></label>
+                            <input asp-for="ProjeAdi_EN" class="form-control" />
+                            <span asp-validation-for="ProjeAdi_EN" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label asp-for="ProjeAdi_RU" class="form-label"></label>
+                            <input asp-for="ProjeAdi_RU" class="form-control" />
+                            <span asp-validation-for="ProjeAdi_RU" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12">
+                            <label asp-for="KisaAciklama" class="form-label"></label>
+                            <textarea asp-for="KisaAciklama" class="form-control" rows="2"></textarea>
+                            <span asp-validation-for="KisaAciklama" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12">
+                            <label asp-for="KisaAciklama_EN" class="form-label"></label>
+                            <textarea asp-for="KisaAciklama_EN" class="form-control" rows="2"></textarea>
+                            <span asp-validation-for="KisaAciklama_EN" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12">
+                            <label asp-for="KisaAciklama_RU" class="form-label"></label>
+                            <textarea asp-for="KisaAciklama_RU" class="form-control" rows="2"></textarea>
+                            <span asp-validation-for="KisaAciklama_RU" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12">
+                            <label asp-for="Aciklama" class="form-label"></label>
+                            <textarea asp-for="Aciklama" class="form-control ckeditor" rows="6"></textarea>
+                            <span asp-validation-for="Aciklama" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12">
+                            <label asp-for="Aciklama_EN" class="form-label"></label>
+                            <textarea asp-for="Aciklama_EN" class="form-control ckeditor" rows="6"></textarea>
+                            <span asp-validation-for="Aciklama_EN" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12">
+                            <label asp-for="Aciklama_RU" class="form-label"></label>
+                            <textarea asp-for="Aciklama_RU" class="form-control ckeditor" rows="6"></textarea>
+                            <span asp-validation-for="Aciklama_RU" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-check form-switch form-switch-lg mt-4">
+                                <input asp-for="Aktif" class="form-check-input" type="checkbox" />
+                                <label asp-for="Aktif" class="form-check-label"></label>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <label asp-for="AnaResim" class="form-label"></label>
+                            <input asp-for="AnaResim" type="file" class="form-control" accept="image/*" />
+                            <span asp-validation-for="AnaResim" class="text-danger"></span>
+                            <div class="form-text">Desteklenen formatlar: JPG, PNG (max 5MB)</div>
+                        </div>
+                    </div>
+
+                    <div class="text-end mt-4">
+                        <a asp-action="Index" asp-controller="AdminProje" asp-area="Admin" class="btn btn-danger">
+                            <i class="ri-arrow-left-line align-bottom me-1"></i> Geri Dön
+                        </a>
+                        <button type="submit" class="btn btn-success waves-effect waves-light">
+                            <i class="ri-save-line align-bottom me-1"></i> Kaydet
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script src="https://cdn.ckeditor.com/ckeditor5/40.0.0/classic/ckeditor.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.ckeditor').forEach(function (element) {
+                ClassicEditor
+                    .create(element)
+                    .catch(error => console.error('CKEditor init error', error));
+            });
+        });
+    </script>
+}
+

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SLIDER_TWIN_TOWERS_3_TEXT" xml:space="preserve">
+    <value>Sehen Sie sich unser Twin Towers 3 Projekt an...</value>
+  </data>
+  <data name="SLIDER_TWIN_TOWERS_TEXT" xml:space="preserve">
+    <value>Sehen Sie sich unsere Twin Tower Projekte an...</value>
+  </data>
+  <data name="SLIDER_TWIN_TOWER_4_TEXT" xml:space="preserve">
+    <value>Twin Tower 4 kommt bald...</value>
+  </data>
+  <data name="BUTTON_VIEW" xml:space="preserve">
+    <value>ANSICHTEN</value>
+  </data>
+  <data name="SECTION_ABOUT_TITLE" xml:space="preserve">
+    <value>KONAK CONSTRUCTION</value>
+  </data>
+  <data name="SECTION_ABOUT_TEXT_1" xml:space="preserve">
+    <value>Konak Construction ist ein Bauunternehmen, das in Bereichen wie Wohnungsbauprojekten, Gewerbezentren usw. im Bausektor tätig ist.</value>
+  </data>
+  <data name="SECTION_ABOUT_TEXT_2" xml:space="preserve">
+    <value>Konak Construction ist seit 1997 in Alanya tätig. Kemal Hacıfazlıoğlu, der Geschäftsführer und Eigentümer von Konak Construction, hat wichtige Rollen bei der Umsetzung und Fertigstellung vieler Bauprojekte gespielt. Er konzentriert sich auf Wohnungsbauprojekte am Meer und Gewerbegebiete...</value>
+  </data>
+  <data name="BUTTON_READ_MORE" xml:space="preserve">
+    <value>WEITERLESEN</value>
+  </data>
+  <data name="SECTION_PROJECTS_TITLE" xml:space="preserve">
+    <value>UNSERE PROJEKTE</value>
+  </data>
+  <data name="SECTION_CALL_US_TITLE" xml:space="preserve">
+    <value>LASSEN SIE UNS SIE ANRUFEN!</value>
+  </data>
+  <data name="SECTION_CALL_US_TEXT" xml:space="preserve">
+    <value>Füllen Sie das Formular aus, um Informationen zu erhalten, und wir rufen Sie an.</value>
+  </data>
+  <data name="FORM_NAME_PLACEHOLDER" xml:space="preserve">
+    <value>Vor- und Nachname *</value>
+  </data>
+  <data name="FORM_EMAIL_PLACEHOLDER" xml:space="preserve">
+    <value>E-Mail *</value>
+  </data>
+  <data name="FORM_PHONE_PLACEHOLDER" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="BUTTON_SEND_MESSAGE" xml:space="preserve">
+    <value>NACHRICHT SENDEN</value>
+  </data>
+</root>

@@ -1,0 +1,99 @@
+﻿@model KonakInsaat.Areas.Admin.Models.Mail
+@{
+    Layout = "_Layout";
+}
+
+<form asp-area="Admin" asp-controller="AdminMail" asp-action="Edit" asp-route-id="@Model.MailID" method="post">
+    @Html.AntiForgeryToken()
+    <div class="row">
+        <div class="col-12">
+            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                <h4 class="mb-sm-0">Mail Bilgileri - Güncelle</h4>
+            </div>
+        </div>
+    </div>
+    <!-- end page title -->
+    <div class="row">
+        <div class="col-xxl-12">
+            <div class="card">
+                <div class="card-header align-items-center d-flex">
+                    <h4 class="card-title mb-0 flex-grow-1">Mail Ayarları</h4>
+                </div><!-- end card header -->
+
+                <div class="card-body">
+                    <input type="hidden" asp-for="MailID" />
+                    <div class="live-preview">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" asp-for="SmtpServer">SMTP Sunucusu</label>
+                                    <input asp-for="SmtpServer" class="form-control" placeholder="örn: mail.domain.com" />
+                                    <span asp-validation-for="SmtpServer" class="text-danger"></span>
+                                </div>
+                            </div><!--end col-->
+
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" asp-for="SmtpPort">SMTP Port</label>
+                                    <input asp-for="SmtpPort" class="form-control" type="number" />
+                                    <span asp-validation-for="SmtpPort" class="text-danger"></span>
+                                </div>
+                            </div><!--end col-->
+
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" asp-for="Email">E-posta Adresi</label>
+                                    <input asp-for="Email" class="form-control" type="email" />
+                                    <span asp-validation-for="Email" class="text-danger"></span>
+                                </div>
+                            </div><!--end col-->
+
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" asp-for="Password">Şifre</label>
+                                    <input asp-for="Password" class="form-control" type="text" />
+                                    <span asp-validation-for="Password" class="text-danger"></span>
+                                </div>
+                            </div><!--end col-->
+
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" asp-for="GonderenAdi">Gönderen Adı</label>
+                                    <input asp-for="GonderenAdi" class="form-control" placeholder="örn: Konak Construction" />
+                                    <span asp-validation-for="GonderenAdi" class="text-danger"></span>
+                                </div>
+                            </div><!--end col-->
+
+                            <div class="col-md-3">
+                                <div class="mb-3">
+                                    <label class="form-label">SSL Kullan</label>
+                                    <div class="form-check form-switch form-switch-lg">
+                                        <input asp-for="SslKullan" class="form-check-input" type="checkbox" />
+                                        <label class="form-check-label" asp-for="SslKullan"></label>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+
+                            <div class="col-md-3">
+                                <div class="mb-3">
+                                    <label class="form-label">Aktif</label>
+                                    <div class="form-check form-switch form-switch-lg">
+                                        <input asp-for="Aktif" class="form-check-input" type="checkbox" />
+                                        <label class="form-check-label" asp-for="Aktif"></label>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+
+                            <div class="col-lg-12">
+                                <div class="text-end">
+                                    <a class="btn btn-danger" asp-area="Admin" asp-controller="AdminMail" asp-action="Index">Geri Dön</a>
+                                    <button type="submit" class="btn btn-primary waves-effect waves-light">Güncelle</button>
+                                </div>
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end col -->
+    </div>
+</form>

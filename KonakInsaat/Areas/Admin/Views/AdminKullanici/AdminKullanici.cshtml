@@ -1,0 +1,82 @@
+﻿@model IEnumerable<KonakInsaat.Areas.Admin.Models.Kullanici>
+@{
+    Layout = "_Layout";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header d-flex align-items-center">
+                <h5 class="card-title mb-0 flex-grow-1">Kullanıcı Ayarları</h5>
+            </div>
+            <div class="card-body">
+                <table id="datatables" class="table table-bordered dt-responsive nowrap table-striped align-middle" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Kullanıcı Adı</th>
+                            <th>E-posta</th>
+                            <th>Ad Soyad</th>
+                            <th>Rol</th>
+                            <th>Durum</th>
+                            <th>Son Giriş</th>
+                            <th>İşlem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null)
+                        {
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.KullaniciAdi</td>
+                                    <td>@item.Email</td>
+                                    <td>@item.AdSoyad</td>
+                                    <td>
+                                        <span class="badge bg-info">@item.Rol</span>
+                                    </td>
+                                    <td>
+                                        @if (item.Aktif)
+                                        {
+                                            <span class="badge bg-success">Aktif</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-danger">Pasif</span>
+                                        }
+                                    </td>
+                                    <td>
+                                        @if (item.SonGirisTarihi.HasValue)
+                                        {
+                                            @item.SonGirisTarihi.Value.ToString("dd.MM.yyyy HH:mm")
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted">-</span>
+                                        }
+                                    </td>
+                                    <td>
+                                        <a class="btn btn-sm btn-warning waves-effect waves-light" asp-area="Admin" asp-controller="AdminKullanici" asp-action="Edit" asp-route-id="@item.KullaniciID">
+                                            <i class="ri-pencil-fill align-bottom me-1"></i> Güncelle
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div><!--end col-->
+</div><!--end row-->
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $('#datatables').DataTable({
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/1.11.5/i18n/tr.json"
+                }
+            });
+        });
+    </script>
+}

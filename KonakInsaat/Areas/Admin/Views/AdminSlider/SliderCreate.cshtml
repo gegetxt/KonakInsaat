@@ -1,0 +1,132 @@
+﻿@model KonakInsaat.Areas.Admin.Models.Slider
+
+@{
+    Layout = "_Layout";
+}
+
+<form asp-action="Create" asp-controller="AdminSlider" asp-area="Admin" method="post" enctype="multipart/form-data">
+    <div class="row">
+        <div class="col-12">
+            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                <h4 class="mb-sm-0">Slider - Ekle</h4>
+            </div>
+        </div>
+    </div>
+    <!-- end page title -->
+
+    <div class="row">
+        <div class="col-xxl-12">
+            <div class="card">
+                <div class="card-header align-items-center d-flex">
+                    <h4 class="card-title mb-0 flex-grow-1">Slider Bilgileri</h4>
+                </div><!-- end card header -->
+
+                <div class="card-body">
+                    <div class="live-preview">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="row g-3">
+                            <!-- Türkçe Alan -->
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="Baslik" class="form-label"></label>
+                                    <input asp-for="Baslik" class="form-control" placeholder="Slider başlığı giriniz" />
+                                    <span asp-validation-for="Baslik" class="text-danger"></span>
+                                </div>
+                            </div><!--end col-->
+
+                            <div class="col-md-6">
+                                <label asp-for="AltBaslik" class="form-label"></label>
+                                <input asp-for="AltBaslik" class="form-control" />
+                                <span asp-validation-for="AltBaslik" class="text-danger"></span>
+                            </div>
+                            <!-- İngilizce Alan -->
+                            <div class="col-12">
+                                <hr class="my-4" />
+                                <h5 class="mb-3">English Translation</h5>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="Baslik_EN" class="form-label"></label>
+                                    <input asp-for="Baslik_EN" class="form-control" placeholder="Enter slider title" />
+                                    <span asp-validation-for="Baslik_EN" class="text-danger"></span>
+                                </div>
+                            </div><!--end col-->
+
+                            <div class="col-md-6">
+                                <label asp-for="AltBaslik_EN" class="form-label"></label>
+                                <input asp-for="AltBaslik_EN" class="form-control" />
+                                <span asp-validation-for="AltBaslik_EN" class="text-danger"></span>
+                            </div>
+                            <!-- Rusça Alan -->
+                            <div class="col-12">
+                                <hr class="my-4" />
+                                <h5 class="mb-3">Русский перевод</h5>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="Baslik_RU" class="form-label"></label>
+                                    <input asp-for="Baslik_RU" class="form-control" placeholder="Введите заголовок слайдера" />
+                                    <span asp-validation-for="Baslik_RU" class="text-danger"></span>
+                                </div>
+                            </div><!--end col-->
+
+                            <div class="col-md-6">
+                                <label asp-for="AltBaslik_RU" class="form-label"></label>
+                                <input asp-for="AltBaslik_RU" class="form-control" />
+                                <span asp-validation-for="AltBaslik_RU" class="text-danger"></span>
+                            </div>
+                            <!-- Resim Alanı -->
+                            <div class="col-12">
+                                <hr class="my-4" />
+                            </div>
+
+                            <div class="col-md-4">
+                                <label asp-for="Sira" class="form-label"></label>
+                                <input asp-for="Sira" type="number" class="form-control" />
+                                <span asp-validation-for="Sira" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-4 d-flex align-items-center">
+                                <div class="form-check form-switch mt-4">
+                                    <input asp-for="Aktif" class="form-check-input" type="checkbox" />
+                                    <label asp-for="Aktif" class="form-check-label"></label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="mb-3">
+                                    <label asp-for="Resim" class="form-label"></label>
+                                    <input asp-for="Resim" type="file" class="form-control" accept="image/*" />
+                                    <span asp-validation-for="Resim" class="text-danger"></span>
+                                    <div class="form-text">Önerilen boyut: 1920x1080px, Desteklenen formatlar: JPG, PNG (Maks. 5MB)</div>
+                                </div>
+                            </div><!--end col-->
+
+                            <div class="col-lg-12">
+                                <div class="text-end mt-3">
+                                    <a asp-action="Index" asp-controller="AdminSlider" asp-area="Admin" class="btn btn-danger">
+                                        <i class="ri-arrow-left-line align-bottom me-1"></i> Geri Dön
+                                    </a>
+                                    <button type="submit" class="btn btn-success waves-effect waves-light">
+                                        <i class="ri-save-line align-bottom me-1"></i> Kaydet
+                                    </button>
+                                </div>
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end col -->
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+

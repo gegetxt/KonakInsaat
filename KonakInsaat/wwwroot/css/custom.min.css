@@ -1,0 +1,197 @@
+/*# sourceMappingURL=custom.min.css.map */
+
+/* Side menü rengi */
+:root[data-sidebar=dark] {
+    --vz-vertical-menu-bg: #000f40 !important;
+    --vz-vertical-menu-border: #000f40 !important;
+    --vz-vertical-menu-item-color: #abb9e8 !important;
+    --vz-vertical-menu-item-hover-color: #fff !important;
+    --vz-vertical-menu-item-active-color: #fff !important;
+}
+
+.app-menu,
+.navbar-menu {
+    background-color: #000f40 !important;
+}
+
+.navbar-menu .navbar-nav .nav-link.menu-link {
+    color: #abb9e8 !important;
+    position: relative !important;
+}
+
+.navbar-menu .navbar-nav .nav-link.menu-link:hover {
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    color: #fff !important;
+}
+
+.menu-dropdown {
+    background-color: #000f40 !important;
+    padding: 0 !important;
+}
+
+/* Dropdown içindeki nav-sm listesi - orijinal padding'i override et */
+.navbar-menu .navbar-nav .nav-sm {
+    padding-left: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Dropdown içindeki her nav-item */
+.navbar-menu .navbar-nav .nav-sm .nav-item {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+}
+
+/* Dropdown içindeki nav-link - üst başlıkla hizala */
+.navbar-menu .navbar-nav .nav-sm .nav-link {
+    color: #abb9e8 !important;
+    display: block !important;
+    width: 100% !important;
+    padding: 8px 15px 8px 52px !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    transition: all 0.2s ease !important;
+}
+
+/* Normal modda tire işareti - üst başlıkla hizala */
+.navbar-menu .navbar-nav .nav-sm .nav-link:before {
+    left: 35px !important;
+}
+
+/* Dropdown nav-link hover - tam kaplama */
+.navbar-menu .navbar-nav .nav-sm .nav-link:hover {
+    color: #fff !important;
+    background-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Dropdown nav-item hover - alternatif seçici */
+.navbar-menu .navbar-nav .nav-sm .nav-item:hover > .nav-link {
+    color: #fff !important;
+    background-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Sidebar küçükken popup menü stili */
+[data-sidebar-size="sm"] .navbar-menu .navbar-nav .nav-item:hover > .menu-dropdown,
+[data-sidebar-size="sm"] .menu-dropdown {
+    background-color: #000f40 !important;
+    border: 1px solid #1a2b5e !important;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3) !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+}
+
+/* Popup menüde ana başlık ile alt başlıklar arasındaki sınır çizgisini kaldır */
+[data-sidebar-size="sm"] .navbar-menu .navbar-nav .nav-item:hover > .menu-dropdown {
+    border-top: none !important;
+    box-shadow: none !important;
+}
+
+[data-sidebar-size="sm"] .navbar-menu .navbar-nav .menu-dropdown .nav-sm {
+    border-top: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+[data-sidebar-size="sm"] .navbar-menu .navbar-nav .menu-dropdown .nav-sm .nav-item:first-child .nav-link {
+    border-top: none !important;
+    box-shadow: none !important;
+}
+
+/* Ana başlık altındaki çizgiyi tamamen kaldır */
+[data-sidebar-size="sm"] .navbar-menu .navbar-nav .nav-item:hover > a.menu-link {
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+[data-sidebar-size="sm"] .navbar-menu .navbar-nav .nav-item:hover > a.menu-link::after,
+[data-sidebar-size="sm"] .navbar-menu .navbar-nav .nav-item:hover > a.menu-link::before {
+    display: none !important;
+}
+
+[data-sidebar-size="sm"] .menu-dropdown::before,
+[data-sidebar-size="sm"] .menu-dropdown::after {
+    display: none !important;
+}
+
+[data-sidebar-size="sm"] .navbar-menu .navbar-nav .nav-sm::before,
+[data-sidebar-size="sm"] .navbar-menu .navbar-nav .nav-sm::after {
+    display: none !important;
+}
+
+/* Sidebar küçükken dropdown içi */
+[data-sidebar-size="sm"] .navbar-menu .navbar-nav .nav-sm {
+    padding: 0 !important;
+    padding-left: 0 !important;
+    margin: 0 !important;
+}
+
+[data-sidebar-size="sm"] .navbar-menu .navbar-nav .nav-sm .nav-item {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+[data-sidebar-size="sm"] .navbar-menu .navbar-nav .nav-sm .nav-link {
+    display: block !important;
+    width: 100% !important;
+    padding: 8px 20px 8px 5px !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+}
+
+/* Tire işaretini gizle */
+[data-sidebar-size="sm"] .navbar-menu .navbar-nav .nav-sm .nav-link:before {
+    display: none !important;
+}
+
+[data-sidebar-size="sm"] .navbar-menu .navbar-nav .nav-item .nav-link {
+    background-color: transparent !important;
+}
+
+[data-sidebar-size="sm"] .navbar-menu .navbar-nav .nav-item:hover > .nav-link {
+    background-color: #000f40 !important;
+}
+
+/* Sidebar küçükken hover efekti - ana menü butonu */
+[data-sidebar-size="sm"] .navbar-menu .navbar-nav > .nav-item:hover > .nav-link {
+    background-color: #405189 !important;
+}
+
+/* Sidebar küçükken dropdown içindeki linkler hover */
+[data-sidebar-size="sm"] .menu-dropdown .nav-link:hover,
+[data-sidebar-size="sm"] .menu-dropdown .nav-sm .nav-item:hover > .nav-link {
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    color: #fff !important;
+}
+
+/* Sidebar küçükken TÜM okları gizle */
+[data-sidebar-size="sm"] .menu-arrow {
+    display: none !important;
+}
+
+/* Ok stilleri */
+.menu-arrow {
+    position: absolute !important;
+    right: 20px !important;
+    top: 50% !important;
+    width: 6px !important;
+    height: 6px !important;
+    display: block !important;
+    border: none !important;
+    border-right: 2px solid #abb9e8 !important;
+    border-bottom: 2px solid #abb9e8 !important;
+    transform: translateY(-50%) rotate(-45deg) !important;
+    transition: transform 0.3s ease, border-color 0.3s ease !important;
+    background: transparent !important;
+}
+
+.nav-link:hover .menu-arrow {
+    border-right-color: #fff !important;
+    border-bottom-color: #fff !important;
+}
+
+.nav-link[aria-expanded="true"] .menu-arrow {
+    transform: translateY(-50%) rotate(45deg) !important;
+    border-right-color: #fff !important;
+    border-bottom-color: #fff !important;
+}

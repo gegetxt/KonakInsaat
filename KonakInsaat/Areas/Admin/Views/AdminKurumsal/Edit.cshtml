@@ -1,0 +1,151 @@
+@model KonakInsaat.Areas.Admin.Models.Kurumsal
+@{
+    Layout = "_Layout";
+}
+
+<style>
+    .ckeditor {
+        display: block !important;
+        visibility: visible !important;
+        min-height: 200px !important;
+    }
+</style>
+
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+            <h4 class="mb-sm-0">Kurumsal - Hakkımızda Bilgileri</h4>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xxl-12">
+        <div class="card">
+            <div class="card-body">
+                <form asp-area="Admin" asp-controller="AdminKurumsal" asp-action="Edit" method="post" enctype="multipart/form-data">
+                    <input type="hidden" asp-for="KurumsalID" />
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="mb-3">
+                                <label asp-for="HakkimizdaBaslik" class="form-label"></label>
+                                <input asp-for="HakkimizdaBaslik" class="form-control" />
+                                <span asp-validation-for="HakkimizdaBaslik" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="mb-3">
+                                <label asp-for="HakkimizdaBaslik_EN" class="form-label"></label>
+                                <input asp-for="HakkimizdaBaslik_EN" class="form-control" />
+                                <span asp-validation-for="HakkimizdaBaslik_EN" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="mb-3">
+                                <label asp-for="HakkimizdaBaslik_RU" class="form-label"></label>
+                                <input asp-for="HakkimizdaBaslik_RU" class="form-control" />
+                                <span asp-validation-for="HakkimizdaBaslik_RU" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="HakkimizdaIcerik" class="form-label"></label>
+                        <textarea asp-for="HakkimizdaIcerik" class="form-control ckeditor" rows="10"></textarea>
+                        <span asp-validation-for="HakkimizdaIcerik" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="HakkimizdaIcerik_EN" class="form-label"></label>
+                        <textarea asp-for="HakkimizdaIcerik_EN" class="form-control ckeditor" rows="6"></textarea>
+                        <span asp-validation-for="HakkimizdaIcerik_EN" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="HakkimizdaIcerik_RU" class="form-label"></label>
+                        <textarea asp-for="HakkimizdaIcerik_RU" class="form-control ckeditor" rows="6"></textarea>
+                        <span asp-validation-for="HakkimizdaIcerik_RU" class="text-danger"></span>
+                    </div>
+
+                    <hr />
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="Misyon" class="form-label"></label>
+                                <textarea asp-for="Misyon" class="form-control ckeditor" rows="4"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="Vizyon" class="form-label"></label>
+                                <textarea asp-for="Vizyon" class="form-control ckeditor" rows="4"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="VideoUrl" class="form-label"></label>
+                                <input asp-for="VideoUrl" class="form-control" />
+                                <span asp-validation-for="VideoUrl" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="ResimFile" class="form-label"></label>
+                                <input asp-for="ResimFile" type="file" class="form-control" />
+                                <span asp-validation-for="ResimFile" class="text-danger"></span>
+
+                                @if (!string.IsNullOrEmpty(Model.HakkimizdaResim))
+                                {
+                                    <div class="mt-2">
+                                        <img src="@Model.HakkimizdaResim" alt="Mevcut Hakkımızda Görseli" class="img-thumbnail" style="max-height: 180px;" />
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-end">
+                        <a asp-area="Admin" asp-controller="AdminKurumsal" asp-action="Index" class="btn btn-secondary">Geri Dön</a>
+                        <button type="submit" class="btn btn-primary">Güncelle</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // CKEditor'ü başlat
+            if (typeof CKEDITOR !== 'undefined') {
+                var editors = document.querySelectorAll('.ckeditor');
+                editors.forEach(function(textarea) {
+                    CKEDITOR.replace(textarea, {
+                        height: 300,
+                        language: 'tr'
+                    });
+                });
+            } else {
+                console.error('CKEditor yüklenemedi!');
+                // CKEditor yüklenemezse textarea'ları göster
+                var textareas = document.querySelectorAll('.ckeditor');
+                textareas.forEach(function(textarea) {
+                    textarea.style.display = 'block';
+                    textarea.style.visibility = 'visible';
+                });
+            }
+        });
+    </script>
+}
+
+

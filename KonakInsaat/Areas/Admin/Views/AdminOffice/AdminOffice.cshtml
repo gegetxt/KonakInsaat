@@ -1,0 +1,68 @@
+@model IEnumerable<KonakInsaat.Areas.Admin.Models.OfficeLocation>
+@{
+    Layout = "_Layout";
+}
+
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+            <h4 class="mb-sm-0">Ofislerimiz</h4>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <table class="table table-bordered dt-responsive nowrap table-striped align-middle" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th style="width: 60px;">Sıra</th>
+                            <th>Ofis Adı</th>
+                            <th>Tip</th>
+                            <th>Harita URL</th>
+                            <th style="width: 120px;">Durum</th>
+                            <th style="width: 140px;">İşlem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null && Model.Any())
+                        {
+                            foreach (var ofis in Model)
+                            {
+                                <tr>
+                                    <td>@ofis.Sira</td>
+                                    <td>@ofis.Ad</td>
+                                    <td>@ofis.Tip</td>
+                                    <td class="text-truncate" style="max-width: 320px;">@ofis.HaritaUrl</td>
+                                    <td>
+                                        @if (ofis.Aktif)
+                                        {
+                                            <span class="badge bg-success">Aktif</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-secondary">Pasif</span>
+                                        }
+                                    </td>
+                                    <td class="text-center">
+                                        <a asp-area="Admin" asp-controller="AdminOffice" asp-action="Edit" asp-route-id="@ofis.OfficeLocationID" class="btn btn-warning btn-sm">Güncelle</a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="6" class="text-center">Henüz ofis kaydı eklenmemiş.</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+

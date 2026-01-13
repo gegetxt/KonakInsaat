@@ -1,0 +1,82 @@
+﻿@model KonakInsaat.Areas.Admin.Models.Katalog
+
+@{
+    Layout = "_Layout";
+}
+
+<form asp-action="Edit" asp-controller="AdminKatalog" method="post" enctype="multipart/form-data">
+    <div class="row">
+        <div class="col-12">
+            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                <h4 class="mb-sm-0">PDF Katalog - Güncelle</h4>
+            </div>
+        </div>
+    </div>
+    <!-- end page title -->
+
+    <div class="row">
+        <div class="col-xxl-12">
+            <div class="card">
+                <div class="card-header align-items-center d-flex">
+                    <h4 class="card-title mb-0 flex-grow-1">Katalog - Güncelle</h4>
+                    <div class="flex-shrink-0"></div>
+                </div><!-- end card header -->
+
+                <div class="card-body">
+                    <input asp-for="KatalogID" type="hidden" />
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="live-preview">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="mb-3">
+                                    <label asp-for="Baslik" class="form-label"></label>
+                                    <input asp-for="Baslik" class="form-control" />
+                                    <span asp-validation-for="Baslik" class="text-danger"></span>
+                                </div>
+                            </div><!--end col-->
+
+                            <div class="col-12">
+                                <div class="mb-3">
+                                    <label for="PdfDosya" class="form-label">PDF Dosyası</label>
+                                    <input type="file" id="PdfDosya" name="PdfDosya" class="form-control" accept=".pdf" />
+                                    <span asp-validation-for="Link" class="text-danger"></span>
+
+                                    @if (!string.IsNullOrEmpty(Model?.Link))
+                                    {
+                                        <div class="mt-2">
+                                            <small class="text-muted">
+                                                Mevcut dosya:
+                                                <a href="@Model.Link" target="_blank" class="text-primary">
+                                                    <i class="ri-file-pdf-line"></i> Görüntüle
+                                                </a>
+                                            </small>
+                                        </div>
+                                    }
+                                </div>
+                            </div><!--end col-->
+
+                            <div class="col-lg-12">
+                                <div class="text-end">
+                                    <a asp-action="Index" asp-controller="AdminKatalog" class="btn btn-danger">
+                                        <i class="ri-arrow-left-line"></i> Geri Dön
+                                    </a>
+                                    <button type="submit" class="btn btn-secondary waves-effect waves-light">
+                                        <i class="ri-save-line"></i> Güncelle
+                                    </button>
+                                </div>
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end col -->
+    </div>
+    <!-- /main content -->
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

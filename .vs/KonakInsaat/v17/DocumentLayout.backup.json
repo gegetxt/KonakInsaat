@@ -1,0 +1,1601 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\KonakInsaat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminKeyword\\Edit\\1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KonakInsaat\\Areas\\Admin\\Views\\AdminKeyword\\Edit\\1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\adminkeyword\\adminkeyword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\adminkeyword\\adminkeyword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\adminkatalog\\adminkatalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\adminkatalog\\adminkatalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\models\\katalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\models\\katalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\adminiletisim\\adminiletisim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\adminiletisim\\adminiletisim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\adminproje\\adminproje.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\adminproje\\adminproje.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\adminproje\\projecreate .cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\adminproje\\projecreate .cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\adminhizmet\\hizmetcreate .cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\adminhizmet\\hizmetcreate .cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\admingaleri\\galericreate .cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\admingaleri\\galericreate .cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\data\\konakinsaatcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\data\\konakinsaatcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\models\\iletisim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\models\\iletisim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\adminhizmet\\adminhizmet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\adminhizmet\\adminhizmet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\admingaleri\\admingaleri.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\admingaleri\\admingaleri.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\adminmarka\\adminmarka.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\adminmarka\\adminmarka.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\adminmail\\adminmail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\adminmail\\adminmail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\adminkurumsal\\adminkurumsal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\adminkurumsal\\adminkurumsal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\adminkullanici\\adminkullanici.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\adminkullanici\\adminkullanici.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\models\\hizmet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\models\\hizmet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\adminslider\\slidercreate .cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\adminslider\\slidercreate .cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\adminmarka\\markacreate .cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\adminmarka\\markacreate .cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\adminblog\\blogcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\adminblog\\blogcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\adminblog\\adminblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\adminblog\\adminblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\admnmesaj\\admnmesaj.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\admnmesaj\\admnmesaj.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\adminsosyal\\adminsosyal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\adminsosyal\\adminsosyal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\adminslider\\adminslider.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\adminslider\\adminslider.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\adminsayi\\adminsayi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\adminsayi\\adminsayi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\konakinsaat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\konakinsaat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\wwwroot\\js\\ckeditor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\wwwroot\\js\\ckeditor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\wwwroot\\img\\bottom.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\wwwroot\\img\\bottom.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\wwwroot\\img\\favicon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\wwwroot\\img\\favicon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\wwwroot\\img\\tab\\1.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\wwwroot\\img\\tab\\1.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\wwwroot\\js\\plugins-init\\chartjs-init.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\wwwroot\\js\\plugins-init\\chartjs-init.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\models\\contactformmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\models\\contactformmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\data\\service\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\data\\service\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\data\\service\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\data\\service\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020195459_AddUserProfileTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020193113_CreateUserProfilesTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020145657_AddUserProfileTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020142309_AddUserProfileTableOnly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020142017_AddUserProfileTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\controllers\\officecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\controllers\\officecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\models\\pagecontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\models\\pagecontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\views\\project\\ongoingprojects\\1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\views\\project\\ongoingprojects\\1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\views\\project\\details\\twin-towers-4\\13.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\views\\project\\details\\twin-towers-4\\13.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\views\\project\\comingsoon\\6.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\views\\project\\comingsoon\\6.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\wwwroot\\img\\logo.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\wwwroot\\img\\logo.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\wwwroot\\css\\style1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\wwwroot\\css\\style1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\areas\\admin\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\areas\\admin\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\wwwroot\\js\\dashboard\\dashboard-1.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\wwwroot\\js\\dashboard\\dashboard-1.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\wwwroot\\js\\layout-compact-nav.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\wwwroot\\js\\layout-compact-nav.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\wwwroot\\css\\perfect-scrollbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\wwwroot\\css\\perfect-scrollbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\wwwroot\\css\\style1.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\wwwroot\\css\\style1.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ggund\\Downloads\\themeforest-LfjESHpH-omah-aspnet-core-mvc-real-estate-admin-dashboard-template\\Omah-v1.1-31_August_2024\\Omah\\Omah\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\data\\service\\contentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\data\\service\\contentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\data\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\data\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\views\\project\\completedprojects\\5.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\views\\project\\completedprojects\\5.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\views\\project\\details\\ugurlu-apartments\\12.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\views\\project\\details\\ugurlu-apartments\\12.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\views\\project\\details\\twin-towers-3\\6.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\views\\project\\details\\twin-towers-3\\6.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\views\\project\\details\\twin-towers-2\\7.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\views\\project\\details\\twin-towers-2\\7.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\views\\project\\details\\twin-towers-1\\8.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\views\\project\\details\\twin-towers-1\\8.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\views\\project\\details\\blue-by-residence\\9.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\views\\project\\details\\blue-by-residence\\9.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\views\\office\\details\\3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\views\\office\\details\\3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\views\\office\\details\\1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\views\\office\\details\\1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\views\\home\\team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\views\\home\\team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\wwwroot\\upload\\proje\\thump_1651217712.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\wwwroot\\upload\\proje\\thump_1651217712.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\data\\service\\icontentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\data\\service\\icontentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\wwwroot\\css\\plugins.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\wwwroot\\css\\plugins.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\resources\\views\\shared\\_layout.en.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\resources\\views\\shared\\_layout.en.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\resources\\views\\shared\\_layout.de.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\resources\\views\\shared\\_layout.de.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\migrations\\20251019194707_addmessagestatuscolumns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\migrations\\20251019194707_addmessagestatuscolumns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|c:\\konakinsaat\\konakinsaat\\migrations\\20251020200450_adduserprofileonly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F555FA2F-BC24-4D19-AEFE-81AC8FF2B053}|KonakInsaat\\KonakInsaat.csproj|solutionrelative:konakinsaat\\migrations\\20251020200450_adduserprofileonly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminHome\\AdminHome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminHome\\Privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminKatalog\\Edit\\1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KonakInsaat\\Areas\\Admin\\Views\\AdminKatalog\\Edit\\1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminIletisim\\Edit\\1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KonakInsaat\\Areas\\Admin\\Views\\AdminIletisim\\Edit\\1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminMail\\Edit\\1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KonakInsaat\\Areas\\Admin\\Views\\AdminMail\\Edit\\1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "1.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminKeyword\\Edit\\1.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminKeyword\\Edit\\1.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminKeyword\\Edit\\1.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminKeyword\\Edit\\1.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T15:57:15.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Katalog.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Models\\Katalog.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Models\\Katalog.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Models\\Katalog.cs",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Models\\Katalog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T15:00:56.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminKatalog.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminKatalog\\AdminKatalog.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminKatalog\\AdminKatalog.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminKatalog\\AdminKatalog.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminKatalog\\AdminKatalog.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T15:09:48.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "1.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminKatalog\\Edit\\1.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminKatalog\\Edit\\1.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminKatalog\\Edit\\1.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminKatalog\\Edit\\1.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAowDEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T18:48:06.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "1.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminIletisim\\Edit\\1.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminIletisim\\Edit\\1.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminIletisim\\Edit\\1.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminIletisim\\Edit\\1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T19:46:32.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminKeyword.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminKeyword\\AdminKeyword.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminKeyword\\AdminKeyword.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminKeyword\\AdminKeyword.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminKeyword\\AdminKeyword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T17:28:05.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminIletisim.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminIletisim\\AdminIletisim.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminIletisim\\AdminIletisim.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminIletisim\\AdminIletisim.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminIletisim\\AdminIletisim.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T17:23:13.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "AdminHome.cshtml",
+              "DocumentMoniker": "C:\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminHome\\AdminHome.cshtml",
+              "RelativeDocumentMoniker": "..\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminHome\\AdminHome.cshtml",
+              "ToolTip": "C:\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminHome\\AdminHome.cshtml",
+              "RelativeToolTip": "..\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminHome\\AdminHome.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T12:20:27.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminProje.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminProje\\AdminProje.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminProje\\AdminProje.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminProje\\AdminProje.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminProje\\AdminProje.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAC4DAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T13:05:58.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProjeCreate .cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminProje\\ProjeCreate .cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminProje\\ProjeCreate .cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminProje\\ProjeCreate .cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminProje\\ProjeCreate .cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T21:53:38.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HizmetCreate .cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminHizmet\\HizmetCreate .cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminHizmet\\HizmetCreate .cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminHizmet\\HizmetCreate .cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminHizmet\\HizmetCreate .cshtml",
+              "ViewState": "AgIAAHkAAAAAAAAAAAD4vxoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T22:29:32.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "KonakInsaatContext.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Data\\KonakInsaatContext.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Data\\KonakInsaatContext.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Data\\KonakInsaatContext.cs",
+              "RelativeToolTip": "KonakInsaat\\Data\\KonakInsaatContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T21:48:40.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GaleriCreate .cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminGaleri\\GaleriCreate .cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminGaleri\\GaleriCreate .cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminGaleri\\GaleriCreate .cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminGaleri\\GaleriCreate .cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAD4vxoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T22:27:21.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Iletisim.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Models\\Iletisim.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Models\\Iletisim.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Models\\Iletisim.cs",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Models\\Iletisim.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:55:44.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminHizmet.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminHizmet\\AdminHizmet.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminHizmet\\AdminHizmet.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminHizmet\\AdminHizmet.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminHizmet\\AdminHizmet.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T13:06:54.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminGaleri.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminGaleri\\AdminGaleri.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminGaleri\\AdminGaleri.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminGaleri\\AdminGaleri.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminGaleri\\AdminGaleri.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T13:10:03.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminMarka.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminMarka\\AdminMarka.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminMarka\\AdminMarka.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminMarka\\AdminMarka.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminMarka\\AdminMarka.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAJAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T15:02:12.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminMail.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminMail\\AdminMail.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminMail\\AdminMail.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminMail\\AdminMail.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminMail\\AdminMail.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T17:26:32.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "1.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminMail\\Edit\\1.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminMail\\Edit\\1.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminMail\\Edit\\1.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminMail\\Edit\\1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T19:41:22.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminKurumsal.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminKurumsal\\AdminKurumsal.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminKurumsal\\AdminKurumsal.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminKurumsal\\AdminKurumsal.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminKurumsal\\AdminKurumsal.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T13:02:51.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminKullanici.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminKullanici\\AdminKullanici.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminKullanici\\AdminKullanici.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminKullanici\\AdminKullanici.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminKullanici\\AdminKullanici.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T17:25:47.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminHome\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "..\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminHome\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminHome\\Privacy.cshtml",
+              "RelativeToolTip": "..\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminHome\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T12:20:33.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Hizmet.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Models\\Hizmet.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Models\\Hizmet.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Models\\Hizmet.cs",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Models\\Hizmet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T19:59:19.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T22:38:31.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Program.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Program.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Program.cs",
+              "RelativeToolTip": "KonakInsaat\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T22:02:44.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SliderCreate .cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminSlider\\SliderCreate .cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminSlider\\SliderCreate .cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminSlider\\SliderCreate .cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminSlider\\SliderCreate .cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T21:49:18.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MarkaCreate .cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminMarka\\MarkaCreate .cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminMarka\\MarkaCreate .cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminMarka\\MarkaCreate .cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminMarka\\MarkaCreate .cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T21:50:41.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AdminBlog.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminBlog\\AdminBlog.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminBlog\\AdminBlog.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminBlog\\AdminBlog.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminBlog\\AdminBlog.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T13:01:27.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AdmnMesaj.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdmnMesaj\\AdmnMesaj.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdmnMesaj\\AdmnMesaj.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdmnMesaj\\AdmnMesaj.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdmnMesaj\\AdmnMesaj.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T16:35:47.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BlogCreate.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminBlog\\BlogCreate.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminBlog\\BlogCreate.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminBlog\\BlogCreate.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminBlog\\BlogCreate.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T18:04:44.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AdminSosyal.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminSosyal\\AdminSosyal.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminSosyal\\AdminSosyal.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminSosyal\\AdminSosyal.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminSosyal\\AdminSosyal.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T17:24:54.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AdminSayi.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminSayi\\AdminSayi.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminSayi\\AdminSayi.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminSayi\\AdminSayi.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminSayi\\AdminSayi.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T16:33:33.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAANIAAAAAAAAAAADwv6sBAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T11:28:02.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AdminSlider.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminSlider\\AdminSlider.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\AdminSlider\\AdminSlider.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\AdminSlider\\AdminSlider.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\AdminSlider\\AdminSlider.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T12:03:32.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "app.js",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\js\\app.js",
+              "RelativeDocumentMoniker": "KonakInsaat\\wwwroot\\js\\app.js",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\js\\app.js",
+              "RelativeToolTip": "KonakInsaat\\wwwroot\\js\\app.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-26T19:39:10.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "1.jpg",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\img\\tab\\1.jpg",
+              "RelativeDocumentMoniker": "KonakInsaat\\wwwroot\\img\\tab\\1.jpg",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\img\\tab\\1.jpg",
+              "RelativeToolTip": "KonakInsaat\\wwwroot\\img\\tab\\1.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-27T22:55:20.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "bottom.svg",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\img\\bottom.svg",
+              "RelativeDocumentMoniker": "KonakInsaat\\wwwroot\\img\\bottom.svg",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\img\\bottom.svg",
+              "RelativeToolTip": "KonakInsaat\\wwwroot\\img\\bottom.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQESURBVDhPrZRdbJNVHMZ/b/u26xfUbqPYbd2wIKxsbGDYpk6joISJCuIHRkyMVxpDNBpjQjDRZFfeaFiI3ojGS00MshgvIEQkYyTAnJMs4yPb2Nqt27p17d5\u002B0L7v23O8WDc28JIneXK\u002B/ufJ\u002BZ/znD88SEgplXvnurq6jjc2Nn5UWkdKuRQLgBCCfD5PNpvtPnr06JFoNBpbrXAPurq6hoQQolgs/i9N0xQDAwOir69PnDhx4tdwOLxl5X7rygFAR0fHkba2tkohwdRTiNw1lMwP6DM/Y0z9AcDwhMHOljacTmfIbrfXTE5OXkskEon7BO2tbyr1za1HbuTKKm9N9rLW/A7nzPeYsbOgbEHIIGb8EtFZqNvcis/nU10u16by8vLg9evXL6bT6fSioKLgfmy/r/bF975cE6h9viVss\u002B9efxzv9BkGRrfzm/YxI2WH2da8DzE7RMZwc7F/jP7\u002BfjRNs/p8vvCFCxd\u002BSaVSMRXA0bjXW3fgw8\u002Be21nz/mvbRlw7xeckbubozR7jVugVorqTSyPTZI0xXvc3UN\u002B8kRr86LqOx\u002BNhcHBwOUsLgL/jg/a28Lq3DzVcXtuS\u002B1RZGMgzqXSSW3cQWxbchknthiquzhbpST6CsqaWysoKAoEAXq8Xq9W67AILQF3Ac/Dl\u002BqGKJuMbZa7PwNX0E9seP8ihHQHeaqokMzWLz16G4nbSl7Axl7eUziNhhbUAVICt61JPP\u002BH90ZkZdfCt8QUTf9kwzH8RUiIR5IsqFaoFm93G6GyBZFqnaq0DKQHlrkcB1KqAan\u002B36UyNLTKinLd8Jd0te5SQtLAYTUlUYtzR0XWDgmliSllalsh7PoBl4kbtgc3i97IrmcNyqGJv8cqlm1KOjiNGxigO36Y4fBsxfBslOk51YZ5ngx78HntJbPUvAlClFntjZry6cL64CyMrVbfTZmkPVSo7qt14HSpa3uDyWJJIMgdSEvS58DjUpQQW73EF1PxEvj2ZLfuzd1rdWqum6taHqpWzUznO3ppB6gaqXaXoqSBZdDEfn\u002BcFi4LNcrcELKW8BIu5oDj3HSscjk3PfX1zaDQxPpWWunsN1G5A2fQoheo64lIhHk8Qcpi81Lgeu3Xple\u002BH9dg7\u002BJ95OBm62nujpy5gMzIpo17LCPdEfIHEXIo7iXls6QUaHlL5ZNdGyt12UJRlyyiKQiQS4fTp0yc1TYtZN1RxOTbN7rB95pnqeM9goKbZtefJp\u002Br9tiJbvCqtVW72N/h5dXsVDpu6eIySXQAUi4VIJEp3d/dJTdPuL2WdnZ09QghhGEaJujD0RerLLCy3hmGIc\u002BfOiWAw2MKSsVdCSvn3qVOn2kt9pJQIIVYV2pUE0DTtH2B\u002BtdIDwn\u002B7nChdLXVvTAAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-10-27T22:55:42.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ckeditor.js",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\js\\ckeditor.js",
+              "RelativeDocumentMoniker": "KonakInsaat\\wwwroot\\js\\ckeditor.js",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\js\\ckeditor.js",
+              "RelativeToolTip": "KonakInsaat\\wwwroot\\js\\ckeditor.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-27T23:15:53.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "KonakInsaat.csproj",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\KonakInsaat.csproj",
+              "RelativeDocumentMoniker": "KonakInsaat\\KonakInsaat.csproj",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\KonakInsaat.csproj",
+              "RelativeToolTip": "KonakInsaat\\KonakInsaat.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-29T13:35:48.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "favicon.png",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\img\\favicon.png",
+              "RelativeDocumentMoniker": "KonakInsaat\\wwwroot\\img\\favicon.png",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\img\\favicon.png",
+              "RelativeToolTip": "KonakInsaat\\wwwroot\\img\\favicon.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-18T11:47:25.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "chartjs-init.js",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\js\\plugins-init\\chartjs-init.js",
+              "RelativeDocumentMoniker": "KonakInsaat\\wwwroot\\js\\plugins-init\\chartjs-init.js",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\js\\plugins-init\\chartjs-init.js",
+              "RelativeToolTip": "KonakInsaat\\wwwroot\\js\\plugins-init\\chartjs-init.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-26T20:16:42.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "KonakInsaat\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "KonakInsaat\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-15T19:13:26.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-19T11:14:26.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T21:24:22.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ContactFormModel.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Models\\ContactFormModel.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Models\\ContactFormModel.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Models\\ContactFormModel.cs",
+              "RelativeToolTip": "KonakInsaat\\Models\\ContactFormModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T20:25:47.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IContactService.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Data\\Service\\IContactService.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Data\\Service\\IContactService.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Data\\Service\\IContactService.cs",
+              "RelativeToolTip": "KonakInsaat\\Data\\Service\\IContactService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T21:48:52.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ContactService.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Data\\Service\\ContactService.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Data\\Service\\ContactService.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Data\\Service\\ContactService.cs",
+              "RelativeToolTip": "KonakInsaat\\Data\\Service\\ContactService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T21:48:35.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "20251020200450_AddUserProfileOnly.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Migrations\\20251020200450_AddUserProfileOnly.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Migrations\\20251020200450_AddUserProfileOnly.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Migrations\\20251020200450_AddUserProfileOnly.cs",
+              "RelativeToolTip": "KonakInsaat\\Migrations\\20251020200450_AddUserProfileOnly.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T20:04:50.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20251020195459_AddUserProfileTable.cs",
+              "DocumentMoniker": "C:\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020195459_AddUserProfileTable.cs",
+              "RelativeDocumentMoniker": "..\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020195459_AddUserProfileTable.cs",
+              "ToolTip": "C:\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020195459_AddUserProfileTable.cs",
+              "RelativeToolTip": "..\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020195459_AddUserProfileTable.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T19:55:00.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20251020193113_CreateUserProfilesTable.cs",
+              "DocumentMoniker": "C:\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020193113_CreateUserProfilesTable.cs",
+              "RelativeDocumentMoniker": "..\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020193113_CreateUserProfilesTable.cs",
+              "ToolTip": "C:\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020193113_CreateUserProfilesTable.cs",
+              "RelativeToolTip": "..\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020193113_CreateUserProfilesTable.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T19:31:13.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\appsettings.json",
+              "RelativeDocumentMoniker": "KonakInsaat\\appsettings.json",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\appsettings.json",
+              "RelativeToolTip": "KonakInsaat\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-18T18:26:14.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20251020145657_AddUserProfileTable.cs",
+              "DocumentMoniker": "C:\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020145657_AddUserProfileTable.cs",
+              "RelativeDocumentMoniker": "..\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020145657_AddUserProfileTable.cs",
+              "ToolTip": "C:\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020145657_AddUserProfileTable.cs",
+              "RelativeToolTip": "..\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020145657_AddUserProfileTable.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T14:56:57.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20251020142017_AddUserProfileTable.cs",
+              "DocumentMoniker": "C:\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020142017_AddUserProfileTable.cs",
+              "RelativeDocumentMoniker": "..\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020142017_AddUserProfileTable.cs",
+              "ToolTip": "C:\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020142017_AddUserProfileTable.cs",
+              "RelativeToolTip": "..\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020142017_AddUserProfileTable.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T14:20:17.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20251020142309_AddUserProfileTableOnly.cs",
+              "DocumentMoniker": "C:\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020142309_AddUserProfileTableOnly.cs",
+              "RelativeDocumentMoniker": "..\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020142309_AddUserProfileTableOnly.cs",
+              "ToolTip": "C:\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020142309_AddUserProfileTableOnly.cs",
+              "RelativeToolTip": "..\\Users\\ggund\\Downloads\\KonakInsaat\\KonakInsaat\\Migrations\\20251020142309_AddUserProfileTableOnly.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T14:23:09.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "KonakInsaat\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAADwv00AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T12:20:55.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "OfficeController.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Controllers\\OfficeController.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Controllers\\OfficeController.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Controllers\\OfficeController.cs",
+              "RelativeToolTip": "KonakInsaat\\Controllers\\OfficeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T12:15:13.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "KonakInsaat\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T12:15:42.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Controllers\\ServiceController.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "KonakInsaat\\Controllers\\ServiceController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T12:14:24.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Controllers\\ProjectController.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "KonakInsaat\\Controllers\\ProjectController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T21:32:56.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "20251019194707_AddMessageStatusColumns.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Migrations\\20251019194707_AddMessageStatusColumns.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Migrations\\20251019194707_AddMessageStatusColumns.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Migrations\\20251019194707_AddMessageStatusColumns.cs",
+              "RelativeToolTip": "KonakInsaat\\Migrations\\20251019194707_AddMessageStatusColumns.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T19:47:07.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "PageContent.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Models\\PageContent.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Models\\PageContent.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Models\\PageContent.cs",
+              "RelativeToolTip": "KonakInsaat\\Models\\PageContent.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T20:25:21.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "1.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Views\\Project\\OngoingProjects\\1.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Views\\Project\\OngoingProjects\\1.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Views\\Project\\OngoingProjects\\1.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Views\\Project\\OngoingProjects\\1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T12:24:44.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "13.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Views\\Project\\Details\\twin-towers-4\\13.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Views\\Project\\Details\\twin-towers-4\\13.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Views\\Project\\Details\\twin-towers-4\\13.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Views\\Project\\Details\\twin-towers-4\\13.cshtml",
+              "ViewState": "AgIAAHkAAAAAAAAAAIBJwNwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T21:53:47.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "6.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Views\\Project\\ComingSoon\\6.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Views\\Project\\ComingSoon\\6.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Views\\Project\\ComingSoon\\6.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Views\\Project\\ComingSoon\\6.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAIBJwDsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T21:31:49.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "logo.png",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\img\\logo.png",
+              "RelativeDocumentMoniker": "KonakInsaat\\wwwroot\\img\\logo.png",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\img\\logo.png",
+              "RelativeToolTip": "KonakInsaat\\wwwroot\\img\\logo.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-19T11:06:28.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T12:45:24.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T12:45:20.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "style1.css",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\css\\style1.css",
+              "RelativeDocumentMoniker": "KonakInsaat\\wwwroot\\css\\style1.css",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\css\\style1.css",
+              "RelativeToolTip": "KonakInsaat\\wwwroot\\css\\style1.css",
+              "ViewState": "AgIAAIAEAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-18T19:34:45.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T21:37:20.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T21:37:18.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Areas\\Admin\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Areas\\Admin\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Areas\\Admin\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T21:24:28.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "dashboard-1.js",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\js\\dashboard\\dashboard-1.js",
+              "RelativeDocumentMoniker": "KonakInsaat\\wwwroot\\js\\dashboard\\dashboard-1.js",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\js\\dashboard\\dashboard-1.js",
+              "RelativeToolTip": "KonakInsaat\\wwwroot\\js\\dashboard\\dashboard-1.js",
+              "ViewState": "AgIAAFQAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-18T19:42:16.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "layout-compact-nav.js",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\js\\layout-compact-nav.js",
+              "RelativeDocumentMoniker": "KonakInsaat\\wwwroot\\js\\layout-compact-nav.js",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\js\\layout-compact-nav.js",
+              "RelativeToolTip": "KonakInsaat\\wwwroot\\js\\layout-compact-nav.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-18T19:37:27.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "perfect-scrollbar.css",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\css\\perfect-scrollbar.css",
+              "RelativeDocumentMoniker": "KonakInsaat\\wwwroot\\css\\perfect-scrollbar.css",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\css\\perfect-scrollbar.css",
+              "RelativeToolTip": "KonakInsaat\\wwwroot\\css\\perfect-scrollbar.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-18T19:35:45.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "style1.css.map",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\css\\style1.css.map",
+              "RelativeDocumentMoniker": "KonakInsaat\\wwwroot\\css\\style1.css.map",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\css\\style1.css.map",
+              "RelativeToolTip": "KonakInsaat\\wwwroot\\css\\style1.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-18T12:36:23.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "KonakInsaat\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "KonakInsaat\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAIgAAAAAAAAAAIBJwI8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-15T19:13:36.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "KonakInsaat\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "KonakInsaat\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-18T11:45:20.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\ggund\\Downloads\\themeforest-LfjESHpH-omah-aspnet-core-mvc-real-estate-admin-dashboard-template\\Omah-v1.1-31_August_2024\\Omah\\Omah\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "..\\Users\\ggund\\Downloads\\themeforest-LfjESHpH-omah-aspnet-core-mvc-real-estate-admin-dashboard-template\\Omah-v1.1-31_August_2024\\Omah\\Omah\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\ggund\\Downloads\\themeforest-LfjESHpH-omah-aspnet-core-mvc-real-estate-admin-dashboard-template\\Omah-v1.1-31_August_2024\\Omah\\Omah\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "..\\Users\\ggund\\Downloads\\themeforest-LfjESHpH-omah-aspnet-core-mvc-real-estate-admin-dashboard-template\\Omah-v1.1-31_August_2024\\Omah\\Omah\\wwwroot\\js\\site.js",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-18T11:45:04.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "KonakInsaat\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T20:25:44.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Models\\Login.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Models\\Login.cs",
+              "RelativeToolTip": "KonakInsaat\\Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T20:26:05.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ContentService.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Data\\Service\\ContentService.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Data\\Service\\ContentService.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Data\\Service\\ContentService.cs",
+              "RelativeToolTip": "KonakInsaat\\Data\\Service\\ContentService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T21:48:55.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Data\\Service\\LoginService.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Data\\Service\\LoginService.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Data\\Service\\LoginService.cs",
+              "RelativeToolTip": "KonakInsaat\\Data\\Service\\LoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T21:48:44.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "12.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Views\\Project\\Details\\ugurlu-apartments\\12.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Views\\Project\\Details\\ugurlu-apartments\\12.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Views\\Project\\Details\\ugurlu-apartments\\12.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Views\\Project\\Details\\ugurlu-apartments\\12.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAIBZwDsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T13:33:06.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "6.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Views\\Project\\Details\\twin-towers-3\\6.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Views\\Project\\Details\\twin-towers-3\\6.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Views\\Project\\Details\\twin-towers-3\\6.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Views\\Project\\Details\\twin-towers-3\\6.cshtml",
+              "ViewState": "AgIAACYBAAAAAAAAAIBZwDEBAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T13:04:03.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "5.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Views\\Project\\CompletedProjects\\5.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Views\\Project\\CompletedProjects\\5.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Views\\Project\\CompletedProjects\\5.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Views\\Project\\CompletedProjects\\5.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwBwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T12:09:30.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "7.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Views\\Project\\Details\\twin-towers-2\\7.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Views\\Project\\Details\\twin-towers-2\\7.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Views\\Project\\Details\\twin-towers-2\\7.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Views\\Project\\Details\\twin-towers-2\\7.cshtml",
+              "ViewState": "AgIAAHwAAAAAAAAAAIBZwIcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T13:24:35.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "8.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Views\\Project\\Details\\twin-towers-1\\8.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Views\\Project\\Details\\twin-towers-1\\8.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Views\\Project\\Details\\twin-towers-1\\8.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Views\\Project\\Details\\twin-towers-1\\8.cshtml",
+              "ViewState": "AgIAAKUAAAAAAAAAAIBZwLcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T13:04:24.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "9.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Views\\Project\\Details\\blue-by-residence\\9.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Views\\Project\\Details\\blue-by-residence\\9.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Views\\Project\\Details\\blue-by-residence\\9.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Views\\Project\\Details\\blue-by-residence\\9.cshtml",
+              "ViewState": "AgIAAJAAAAAAAAAAAIBZwJ8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T21:32:07.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "3.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Views\\Office\\Details\\3.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Views\\Office\\Details\\3.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Views\\Office\\Details\\3.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Views\\Office\\Details\\3.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAIBZwCEAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T13:37:52.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "1.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Views\\Office\\Details\\1.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Views\\Office\\Details\\1.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Views\\Office\\Details\\1.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Views\\Office\\Details\\1.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAIBZwCoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T13:37:26.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Team.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Views\\Home\\Team.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Views\\Home\\Team.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Views\\Home\\Team.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Views\\Home\\Team.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAIBZwC8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T15:13:17.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAIBZwGIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-15T20:08:00.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAIBZwE8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T15:10:46.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAIBZwB8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T15:41:35.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "KonakInsaat\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "KonakInsaat\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T15:15:44.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "thump_1651217712.jpg",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\upload\\proje\\thump_1651217712.jpg",
+              "RelativeDocumentMoniker": "KonakInsaat\\wwwroot\\upload\\proje\\thump_1651217712.jpg",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\upload\\proje\\thump_1651217712.jpg",
+              "RelativeToolTip": "KonakInsaat\\wwwroot\\upload\\proje\\thump_1651217712.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-17T12:01:05.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "IContentService.cs",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Data\\Service\\IContentService.cs",
+              "RelativeDocumentMoniker": "KonakInsaat\\Data\\Service\\IContentService.cs",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Data\\Service\\IContentService.cs",
+              "RelativeToolTip": "KonakInsaat\\Data\\Service\\IContentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T21:48:46.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "plugins.css",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\css\\plugins.css",
+              "RelativeDocumentMoniker": "KonakInsaat\\wwwroot\\css\\plugins.css",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\wwwroot\\css\\plugins.css",
+              "RelativeToolTip": "KonakInsaat\\wwwroot\\css\\plugins.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-15T20:55:28.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "_Layout.en.resx",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Resources\\Views\\Shared\\_Layout.en.resx",
+              "RelativeDocumentMoniker": "KonakInsaat\\Resources\\Views\\Shared\\_Layout.en.resx",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Resources\\Views\\Shared\\_Layout.en.resx",
+              "RelativeToolTip": "KonakInsaat\\Resources\\Views\\Shared\\_Layout.en.resx",
+              "ViewState": "AgIAAD8AAAAAAAAAAABRwF4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-10-15T20:02:51.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "_Layout.de.resx",
+              "DocumentMoniker": "C:\\KonakInsaat\\KonakInsaat\\Resources\\Views\\Shared\\_Layout.de.resx",
+              "RelativeDocumentMoniker": "KonakInsaat\\Resources\\Views\\Shared\\_Layout.de.resx",
+              "ToolTip": "C:\\KonakInsaat\\KonakInsaat\\Resources\\Views\\Shared\\_Layout.de.resx",
+              "RelativeToolTip": "KonakInsaat\\Resources\\Views\\Shared\\_Layout.de.resx",
+              "ViewState": "AgIAAGUAAAAAAAAAAABRwGoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-10-15T19:57:20.031Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

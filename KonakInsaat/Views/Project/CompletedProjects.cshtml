@@ -1,0 +1,106 @@
+@using System
+@using KonakInsaat.Areas.Admin.Models
+@model IEnumerable<Proje>
+@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer L
+@{
+    Layout = "_Layout";
+    var pageTitle = L["COMPLETED_PROJECTS_TITLE"];
+}
+
+<style>
+    .projects .item .position-re {
+        height: 320px;
+        overflow: hidden;
+        position: relative;
+        background: transparent;
+    }
+    .projects .item .position-re img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .projects .item .position-re a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+</style>
+
+<div class="content-wrapper">
+    <section class="content-lines-wrapper">
+        <div class="content-lines-inner">
+            <div class="content-lines"></div>
+        </div>
+    </section>
+
+    <section class="banner-header banner-img bg-img bg-fixed pb-0" data-background="upload/background.jpg" data-overlay-darkgray="0"></section>
+
+    <section class="projects section-padding2">
+        <div class="container">
+            <div class="row" style="margin-bottom: 20px;">
+                <div class="col-md-12 animate-box" data-animate-effect="fadeInUp">
+                    <h2 class="section-title"><span class="text-center">@pageTitle</span></h2>
+                </div>
+            </div>
+
+            <div class="row" style="margin-bottom: -70px;">
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var proje in Model)
+                    {
+                        <div class="col-md-6 animate-box" data-animate-effect="fadeInUp">
+                            <div class="item">
+                                <div class="position-re o-hidden">
+                                    <a asp-controller="Project" asp-action="Detail" asp-route-id="@proje.ProjeID">
+                                        <img src="@Url.Content(!string.IsNullOrEmpty(proje.AnaResimYolu) ? proje.AnaResimYolu : "/Resim/konaklogo.png")"
+                                             alt="@proje.ProjeAdi">
+                                    </a>
+                                </div>
+                                <div class="con">
+                                    @if (!string.IsNullOrEmpty(proje.KisaAciklama))
+                                    {
+                                        <h6>
+                                            <a asp-controller="Project" asp-action="Detail" asp-route-id="@proje.ProjeID">
+                                                @proje.KisaAciklama
+                                            </a>
+                                        </h6>
+                                    }
+                                    <h5>
+                                        <a asp-controller="Project" asp-action="Detail" asp-route-id="@proje.ProjeID">
+                                            @proje.ProjeAdi
+                                        </a>
+                                    </h5>
+                                    <div class="line"></div>
+                                    <a asp-controller="Project" asp-action="Detail" asp-route-id="@proje.ProjeID">
+                                        <i class="ti-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <div class="col-12">
+                        <div class="alert alert-info text-center">
+                            @L["NO_PROJECTS_MESSAGE"]
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+
+    @await Html.PartialAsync("_ProjectContactAndClients")
+</div>
+

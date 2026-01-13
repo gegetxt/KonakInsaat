@@ -1,0 +1,343 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <base />
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>@ViewData["Title"] - Konak Construction - Hayallerinizin Ötesinde...</title>
+    
+    <meta name="keywords" content="Alanya, Emlak, Yatırım, Lüks Daireler, yatırımlık daireler, daire, emlak projeleri, alanya emlak, emlak satın al, lüks daireler, konak, konak insaat" />
+
+    <meta name="description" content="Konak İnşaat is building wonderful structures in Alanya, the pearl of the Mediterranean. It serves its customers with investment projects in Turkey.">
+
+    <meta name="author" content="Farika Yazılım">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <link rel="shortcut icon" href="~/img/favicon.png"/>
+    <link rel="stylesheet" href="~/css/plugins/animate.min.css" />
+    <link rel="stylesheet" href="~/css/plugins/before-after.css" />
+    <link rel="stylesheet" href="~/css/plugins/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/plugins/magnific-popup.css" />
+    <link rel="stylesheet" href="~/css/plugins/owl.carousel.min.css" />
+    <link rel="stylesheet" href="~/css/plugins/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="~/css/plugins/themify-icons.css" />
+    <link rel="stylesheet" href="~/css/plugins/YouTubePopUp.css" />
+    <link rel="stylesheet" href="~/css/plugins.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GEQDZEKKYM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-GEQDZEKKYM');
+    </script>
+    <!-- GetButton.io widget -->
+    <script type="text/javascript">
+        (function () {
+            var options = {
+                whatsapp: "+905526011664", // WhatsApp number
+                call: "+905526011664", // Call phone number
+                call_to_action: "Bize mesaj gönderin", // Call to action
+                button_color: "#A8CE50", // Color of button
+                position: "left", // Position may be 'right' or 'left'
+                order: "whatsapp,call", // Order of buttons
+            };
+            var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+    <!-- /GetButton.io widget -->
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window,document,'script',
+        '../connect.facebook.net/en_US/fbevents.js');
+         fbq('init', '1039885830920180');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1"
+             src="https://www.facebook.com/tr?id=1039885830920180&amp;ev=PageView&amp;noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+
+
+<body>
+    <!-- Preloader -->
+
+    <div id="preloader"></div>
+
+    <!-- Progress scroll totop -->
+
+    <div class="progress-wrap cursor-pointer">
+
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+
+        </svg>
+
+    </div>
+    <header>
+        <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg">
+
+        <div class="container">
+
+
+
+                <a class="logo" asp-controller="Home" asp-action="Index">
+                    @await Component.InvokeAsync("Logo")
+                </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="icon-bar"><i class="ti-line-double"></i></span> </button>
+
+            <!-- Navbar links -->
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" asp-controller="Home" asp-action="Index">
+                                <strong>@L["NAV_HOME"]</strong>
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <span class="nav-link"><strong> @L["NAV_CORPORATE"] <i class="ti-angle-down"></i></strong></span>
+                            <ul class="dropdown-menu last">
+                                <li class="dropdown-item">
+                                    <a asp-controller="Home" asp-action="About">@L["NAV_ABOUT_US"]</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a asp-controller="Home" asp-action="Team">@L["NAV_TEAM"]</a>
+                                </li>
+                                <li class="dropdown-item">
+                                            <span><strong> @L["NAV_OUR_OFFICES"] <i class="ti-angle-right"></i></strong></span>
+                                    <ul class="sub-menu">
+                                        <li class="dropdown-item">
+                                            <a asp-controller="Office" asp-action="Details" asp-route-id="3">@L["NAV_MAIN_OFFICE"]</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a asp-controller="Office" asp-action="Details" asp-route-id="1">@L["NAV_SALES_OFFICE"]</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <span class="nav-link"><strong> @L["NAV_OUR_PROJECTS"] <i class="ti-angle-down"></i></strong></span>
+                            <ul class="dropdown-menu last">
+                                <li class="dropdown-item">
+                                    <a asp-controller="Project" asp-action="OngoingProjects">@L["NAV_ONGOING_PROJECTS"]</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a asp-controller="Project" asp-action="CompletedProjects">@L["NAV_COMPLETED_PROJECTS"]</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a asp-controller="Project" asp-action="ComingSoon">@L["NAV_COMING_SOON"]</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <span class="nav-link"><strong> @L["NAV_OUR_SERVICES"] <i class="ti-angle-down"></i></strong></span>
+                            <ul class="dropdown-menu last">
+                                @await Component.InvokeAsync("Hizmetler")
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Account" asp-action="Login">
+                                <strong>@L["NAV_PRICE_LIST"]</strong>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://drive.google.com/drive/folders/1pfpwkH7snq2gtS-wSvaswlW1t5gs64cP?usp=sharing" target="_blank">
+                                <strong>@L["NAV_GOOGLE_DRIVE"]</strong>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Contact">
+                                <strong>@L["NAV_CONTACT"]</strong>
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <span class="nav-link"><strong> @Thread.CurrentThread.CurrentUICulture.TwoLetterISOLanguageName.ToUpper() </strong> <i class="ti-angle-down"></i></span>
+                            <ul class="dropdown-menu last">
+                                <li class="dropdown-item"><a href="?dil=tr">@L["NAV_LANGUAGE_TR"]</a></li>
+                                <li class="dropdown-item"><a href="?dil=en">@L["NAV_LANGUAGE_EN"]</a></li>
+                                <li class="dropdown-item"><a href="?dil=de">@L["NAV_LANGUAGE_DE"]</a></li>
+                                <li class="dropdown-item"><a href="?dil=ru">@L["NAV_LANGUAGE_RU"]</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+
+        </div>
+
+    </nav>
+    </header>
+
+    <main role="main">
+        @RenderBody()
+    </main>
+
+    <footer class="main-footer dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-30">
+                    <div class="item fotcont">
+                            <div class="fothead">
+                                <h6>@L["FOOTER_CONTACT_INFO"]</h6>
+                            </div>
+                        <p><strong>Tel.</strong> <a href="tel:+90 242 519 0934">+90 242 519 0934</a></p>
+                        <p><strong>Fax.</strong> +90 242 519 0936</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-30">
+                    <div class="item fotcont">
+                            <div class="fothead">
+                                <h6>@L["FOOTER_EMAIL"]</h6>
+                            </div>
+                        <p><p>info@konakconstruction.com</p></p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-30">
+                    <div class="item fotcont">
+                            <div class="fothead">
+                                <h6>@L["FOOTER_ADDRESS"]</h6>
+                            </div>
+                        <p>Kızlarpınarı Mah. Uğurlular Sk. Uğurlular Sitesi B Blok NO:2 Alanya/Antalya</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="left">
+                            <p>@L["FOOTER_COPYRIGHT"]</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 abot">
+                        <div class="social-icon">
+    <a href="https://www.facebook.com/konakconstructiongroup/" target="_blank">
+        <img src="~/img/fb.png" style="width: 40px;" alt="Facebook">
+    </a>
+    <a href="https://www.instagram.com/konakconstructiongroup/" target="_blank">
+        <img src="~/img/ig.png" style="width: 35px;" alt="Instagram">
+    </a>
+    <a href="https://www.youtube.com/channel/UCQxyH5knk3JmTfyZSpS1QiA" target="_blank">
+        <img src="~/img/yt.png" style="width: 35px;" alt="YouTube">
+    </a>
+</div>
+
+                    </div>
+                    <div class="col-md-4">
+                            <p class="right"><a href="https://webalanya.com.tr/">@L["FOOTER_WEB_DESIGN"]</a></p>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </footer>
+
+    <!-- Önce jQuery -->
+    <script src="~/js/jquery-3.5.1.min.js"></script>
+    <script src="~/js/jquery-migrate-3.0.0.min.js"></script>
+    
+    <!-- jQuery bağımlı eklentiler -->
+    <script src="~/js/imagesloaded.pkgd.min.js"></script>
+    <script src="~/js/jquery.isotope.v3.0.2.js"></script>
+    <script src="~/js/jquery.magnific-popup.js"></script>
+    <script src="~/js/jquery.stellar.min.js"></script>
+    <script src="~/js/jquery.waypoints.min.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/YouTubePopUp.js"></script>
+
+    <!-- Diğer bağımsız kütüphaneler -->
+    <script src="~/js/modernizr-2.6.2.min.js"></script>
+    <script src="~/js/pace.js"></script>
+    <script src="~/js/popper.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/scrollIt.min.js"></script>
+
+    <!-- Özel js dosyan -->
+    <script src="~/js/before-after.js"></script>
+    <script src="~/js/custom.js"></script>
+    <!-- data-background düzeltme -->
+    <script>
+        $(document).ready(function() {
+            $('[data-background]').each(function() {
+                var bgPath = $(this).attr('data-background');
+                // Eğer ~ ile başlıyorsa düzelt
+                if (bgPath.startsWith('~/')) {
+                    bgPath = bgPath.replace('~/', '/');
+                }
+                // Eğer ../ ile başlıyorsa düzelt
+                if (bgPath.startsWith('../')) {
+                    bgPath = bgPath.replace('../', '/');
+                }
+                $(this).css('background-image', 'url(' + bgPath + ')');
+            });
+        });
+    </script>
+
+    <!-- PRELOADER ZORLA GİZLE -->
+    <script>
+        (function() {
+            'use strict';
+
+            function hidePreloader() {
+                var preloader = document.getElementById('preloader');
+                if (preloader) {
+                    preloader.style.transition = 'opacity 0.5s';
+                    preloader.style.opacity = '0';
+                    setTimeout(function() {
+                        preloader.style.display = 'none';
+                        console.log('Preloader gizlendi!');
+                    }, 500);
+                }
+            }
+
+            if (document.readyState === 'complete') {
+                hidePreloader();
+            }
+
+            if (window.jQuery) {
+                $(document).ready(function() {
+                    setTimeout(hidePreloader, 500);
+                });
+            }
+
+            window.addEventListener('load', function() {
+                setTimeout(hidePreloader, 500);
+            });
+
+            setTimeout(hidePreloader, 1500);
+        })();
+    </script>
+</body>
+</html>

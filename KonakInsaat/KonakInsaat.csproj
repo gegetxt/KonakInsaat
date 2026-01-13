@@ -1,0 +1,107 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Areas\Admin\Views\AdminHome\AdminBlog.cshtml" />
+    <Content Remove="Areas\Admin\Views\AdminHome\AdminGaleri.cshtml" />
+    <Content Remove="Areas\Admin\Views\AdminHome\AdminHizmet.cshtml" />
+    <Content Remove="Areas\Admin\Views\AdminHome\AdminIletisim.cshtml" />
+    <Content Remove="Areas\Admin\Views\AdminHome\AdminKatalog.cshtml" />
+    <Content Remove="Areas\Admin\Views\AdminHome\AdminKeyword.cshtml" />
+    <Content Remove="Areas\Admin\Views\AdminHome\AdminKullanici.cshtml" />
+    <Content Remove="Areas\Admin\Views\AdminHome\AdminKurumsal.cshtml" />
+    <Content Remove="Areas\Admin\Views\AdminHome\AdminMail.cshtml" />
+    <Content Remove="Areas\Admin\Views\AdminHome\AdminMarka.cshtml" />
+    <Content Remove="Areas\Admin\Views\AdminHome\AdminProje.cshtml" />
+    <Content Remove="Areas\Admin\Views\AdminHome\AdminSayi.cshtml" />
+    <Content Remove="Areas\Admin\Views\AdminHome\AdminSlider.cshtml" />
+    <Content Remove="Areas\Admin\Views\AdminHome\AdminSosyal.cshtml" />
+    <Content Remove="Areas\Admin\Views\AdminHome\AdmnMesaj.cshtml" />
+    <Content Remove="Areas\Admin\Views\AdminHome\BlogCreate.cshtml" />
+    <Content Remove="Areas\Admin\Views\AdminHome\GaleriCreate .cshtml" />
+    <Content Remove="Areas\Admin\Views\AdminHome\HizmetCreate .cshtml" />
+    <Content Remove="Areas\Admin\Views\AdminMarka\MarkaCreate .cshtml" />
+    <Content Remove="Areas\Admin\Views\AdminProje\ProjeCreate .cshtml" />
+    <Content Remove="Areas\Admin\Views\AdminSlider\SliderCreate .cshtml" />
+    <Content Remove="Views\Service\Details3.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Areas\Admin\Views\AdminHizmet\HizmetCreate .cshtml" />
+    <None Include="Areas\Admin\Views\AdminGaleri\GaleriCreate .cshtml" />
+    <None Include="Areas\Admin\Views\AdminBlog\BlogCreate.cshtml" />
+    <None Include="Areas\Admin\Views\AdminMail\AdminMail.cshtml" />
+    <None Include="Areas\Admin\Views\AdminKullanici\AdminKullanici.cshtml" />
+    <None Include="Areas\Admin\Views\AdminKeyword\AdminKeyword.cshtml" />
+    <None Include="Areas\Admin\Views\AdminMarka\MarkaCreate .cshtml" />
+    <None Include="Areas\Admin\Views\AdminProje\ProjeCreate .cshtml" />
+    <None Include="Areas\Admin\Views\AdminSlider\SliderCreate .cshtml" />
+    <None Include="Areas\Admin\Views\AdmnMesaj\AdmnMesaj.cshtml" />
+    <None Include="Areas\Admin\Views\AdminIletisim\AdminIletisim.cshtml" />
+    <None Include="Areas\Admin\Views\AdminSosyal\AdminSosyal.cshtml" />
+    <None Include="Areas\Admin\Views\AdminSayi\AdminSayi.cshtml" />
+    <None Include="Areas\Admin\Views\AdminProje\AdminProje.cshtml" />
+    <None Include="Areas\Admin\Views\AdminHizmet\AdminHizmet.cshtml" />
+    <None Include="Areas\Admin\Views\AdminBlog\AdminBlog.cshtml" />
+    <None Include="Areas\Admin\Views\AdminKatalog\AdminKatalog.cshtml" />
+    <None Include="Areas\Admin\Views\AdminGaleri\AdminGaleri.cshtml" />
+    <None Include="Areas\Admin\Views\AdminMarka\AdminMarka.cshtml" />
+    <None Include="Areas\Admin\Views\AdminKurumsal\AdminKurumsal.cshtml" />
+    <None Include="Areas\Admin\Views\AdminSlider\AdminSlider.cshtml" />
+    <None Include="wwwroot\vendor\jquery-smartwizard\.github\FUNDING.yml" />
+    <None Include="wwwroot\vendor\jquery-smartwizard\.github\ISSUE_TEMPLATE\bug_report.md" />
+    <None Include="wwwroot\vendor\jquery-smartwizard\.github\ISSUE_TEMPLATE\feature_request.md" />
+    <None Include="wwwroot\vendor\jquery-smartwizard\.github\pull_request_template.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Blazor-ApexCharts" Version="6.0.2" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.12.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="9.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Views\AdminHizmet\Delete\" />
+    <Folder Include="Areas\Admin\Views\AdminHizmet\Edit\" />
+    <Folder Include="Areas\Admin\Views\AdminIletisim\Delete\" />
+    <Folder Include="Areas\Admin\Views\AdminIletisim\Edit\" />
+    <Folder Include="Areas\Admin\Views\AdminKatalog\Delete\" />
+    <Folder Include="Areas\Admin\Views\AdminKatalog\Edit\" />
+    <Folder Include="Areas\Admin\Views\AdminKeyword\Delete\" />
+    <Folder Include="Areas\Admin\Views\AdminKeyword\Edit\" />
+    <Folder Include="Areas\Admin\Views\AdminKullanici\Delete\" />
+    <Folder Include="Areas\Admin\Views\AdminKullanici\Edit\" />
+    <Folder Include="Areas\Admin\Views\AdminKurumsal\Delete\" />
+    <Folder Include="Areas\Admin\Views\AdminKurumsal\Edit\" />
+    <Folder Include="Areas\Admin\Views\AdminMail\Delete\" />
+    <Folder Include="Areas\Admin\Views\AdminMail\Edit\" />
+    <Folder Include="Areas\Admin\Views\AdminMarka\Delete\" />
+    <Folder Include="Areas\Admin\Views\AdminMarka\Edit\" />
+    <Folder Include="Areas\Admin\Views\AdminProje\Delete\" />
+    <Folder Include="Areas\Admin\Views\AdminProje\Edit\" />
+    <Folder Include="Areas\Admin\Views\AdminProje\DetayResimGetir\" />
+    <Folder Include="Areas\Admin\Views\AdminSayi\Delete\" />
+    <Folder Include="Areas\Admin\Views\AdminSayi\Edit\" />
+    <Folder Include="Areas\Admin\Views\AdminSlider\Delete\" />
+    <Folder Include="Areas\Admin\Views\AdminSlider\Edit\" />
+    <Folder Include="Areas\Admin\Views\AdminSosyal\Delete\" />
+    <Folder Include="Areas\Admin\Views\AdminSosyal\Edit\" />
+    <Folder Include="wwwroot\vendor\lightgallery\src\images\" />
+  </ItemGroup>
+
+</Project>

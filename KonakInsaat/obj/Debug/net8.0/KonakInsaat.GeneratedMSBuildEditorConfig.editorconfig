@@ -1,0 +1,361 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = KonakInsaat
+build_property.RootNamespace = KonakInsaat
+build_property.ProjectDir = C:\KonakInsaat\KonakInsaat\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\KonakInsaat\KonakInsaat
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminBlog/AdminBlog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5CbG9nXEFkbWluQmxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminBlog/BlogCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5CbG9nXEJsb2dDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminGaleri/AdminGaleri.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5HYWxlcmlcQWRtaW5HYWxlcmkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminGaleri/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5HYWxlcmlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminGaleri/GaleriCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5HYWxlcmlcR2FsZXJpQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminHizmet/AdminHizmet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5IaXptZXRcQWRtaW5IaXptZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminHizmet/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5IaXptZXRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminHizmet/HizmetCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5IaXptZXRcSGl6bWV0Q3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminIletisim/AdminIletisim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5JbGV0aXNpbVxBZG1pbklsZXRpc2ltLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminIletisim/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5JbGV0aXNpbVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminKatalog/AdminKatalog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5LYXRhbG9nXEFkbWluS2F0YWxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminKatalog/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5LYXRhbG9nXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminKeyword/AdminKeyword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5LZXl3b3JkXEFkbWluS2V5d29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminKeyword/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5LZXl3b3JkXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminKeyword/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5LZXl3b3JkXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminKullanici/AdminKullanici.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5LdWxsYW5pY2lcQWRtaW5LdWxsYW5pY2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminKullanici/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5LdWxsYW5pY2lcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminKurumsal/AdminKurumsal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5LdXJ1bXNhbFxBZG1pbkt1cnVtc2FsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminKurumsal/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5LdXJ1bXNhbFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminMail/AdminMail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYWlsXEFkbWluTWFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminMail/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYWlsXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminMarka/AdminMarka.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYXJrYVxBZG1pbk1hcmthLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminMarka/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYXJrYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminMarka/MarkaCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYXJrYVxNYXJrYUNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminMesaj/AdminMesaj.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NZXNhalxBZG1pbk1lc2FqLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminMesaj/Detay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NZXNhalxEZXRheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminOffice/AdminOffice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5PZmZpY2VcQWRtaW5PZmZpY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminOffice/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5PZmZpY2VcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminProje/AdminProje.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9qZVxBZG1pblByb2plLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminProje/DetayResimGetir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9qZVxEZXRheVJlc2ltR2V0aXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminProje/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9qZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminProje/ProjeCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9qZVxQcm9qZUNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminSayi/AdminSayi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5TYXlpXEFkbWluU2F5aS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminSayi/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5TYXlpXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminSlider/AdminSlider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5TbGlkZXJcQWRtaW5TbGlkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminSlider/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5TbGlkZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminSlider/SliderCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5TbGlkZXJcU2xpZGVyQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminSosyal/AdminSosyal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Tb3N5YWxcQWRtaW5Tb3N5YWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminSosyal/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Tb3N5YWxcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminSosyal/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Tb3N5YWxcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminTeam/AdminTeam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5UZWFtXEFkbWluVGVhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdminTeam/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5UZWFtXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcYWRtaW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/AdmnMesaj/AdmnMesaj.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtbk1lc2FqXEFkbW5NZXNhai5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/Home/AdminHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxBZG1pbkhvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Home/Team.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZWFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Office/Details/1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlXERldGFpbHNcMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Office/Details/3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlXERldGFpbHNcMy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Project/ComingSoon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxDb21pbmdTb29uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Project/ComingSoon/6.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxDb21pbmdTb29uXDYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Project/CompletedProjects.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxDb21wbGV0ZWRQcm9qZWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Project/CompletedProjects/5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxDb21wbGV0ZWRQcm9qZWN0c1w1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Project/Details/blue-by-residence/9.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxEZXRhaWxzXGJsdWUtYnktcmVzaWRlbmNlXDkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Project/Details/Dynamic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxEZXRhaWxzXER5bmFtaWMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Project/Details/twin-towers-1/8.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxEZXRhaWxzXHR3aW4tdG93ZXJzLTFcOC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Project/Details/twin-towers-2/7.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxEZXRhaWxzXHR3aW4tdG93ZXJzLTJcNy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Project/Details/twin-towers-3/6.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxEZXRhaWxzXHR3aW4tdG93ZXJzLTNcNi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Project/Details/twin-towers-4/13.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxEZXRhaWxzXHR3aW4tdG93ZXJzLTRcMTMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Project/Details/ugurlu-apartments/12.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxEZXRhaWxzXHVndXJsdS1hcGFydG1lbnRzXDEyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Project/OngoingProjects.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxPbmdvaW5nUHJvamVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Project/OngoingProjects/1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxPbmdvaW5nUHJvamVjdHNcMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Project/_ProjectContactAndClients.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxfUHJvamVjdENvbnRhY3RBbmRDbGllbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Service/Details/3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxEZXRhaWxzXDMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Service/Details/Dynamic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxEZXRhaWxzXER5bmFtaWMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Shared/Components/Hizmetler/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcSGl6bWV0bGVyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Shared/Components/Logo/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTG9nb1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Shared/Components/SosyalMedya/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU29zeWFsTWVkeWFcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/KonakInsaat/KonakInsaat/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-698mc564zw
+
+[C:/KonakInsaat/KonakInsaat/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zo2zbaoiax

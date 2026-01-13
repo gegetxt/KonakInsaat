@@ -1,0 +1,10 @@
+@model string
+@{
+    var style = ViewBag.Style as string ?? "";
+}
+<img src="@Url.Content(Model)" 
+     data-scroll-src="@Model" 
+     data-default-src="@Model" 
+     alt="Konak Construction Logo"
+     style="@style">
+

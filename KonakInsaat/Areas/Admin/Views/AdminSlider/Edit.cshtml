@@ -1,0 +1,113 @@
+@model KonakInsaat.Areas.Admin.Models.Slider
+
+@{
+    Layout = "_Layout";
+}
+
+<form asp-action="Edit"
+      asp-controller="AdminSlider"
+      asp-area="Admin"
+      method="post"
+      enctype="multipart/form-data">
+    <input type="hidden" asp-for="SliderID" />
+    <input type="hidden" asp-for="ResimYolu" />
+
+    <div class="row">
+        <div class="col-12">
+            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                <h4 class="mb-sm-0">Slider - Güncelle</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xxl-12">
+            <div class="card">
+                <div class="card-body">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label asp-for="Baslik" class="form-label"></label>
+                            <input asp-for="Baslik" class="form-control" />
+                            <span asp-validation-for="Baslik" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label asp-for="AltBaslik" class="form-label"></label>
+                            <input asp-for="AltBaslik" class="form-control" />
+                            <span asp-validation-for="AltBaslik" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label asp-for="Baslik_EN" class="form-label"></label>
+                            <input asp-for="Baslik_EN" class="form-control" />
+                            <span asp-validation-for="Baslik_EN" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label asp-for="AltBaslik_EN" class="form-label"></label>
+                            <input asp-for="AltBaslik_EN" class="form-control" />
+                            <span asp-validation-for="AltBaslik_EN" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label asp-for="Baslik_RU" class="form-label"></label>
+                            <input asp-for="Baslik_RU" class="form-control" />
+                            <span asp-validation-for="Baslik_RU" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label asp-for="AltBaslik_RU" class="form-label"></label>
+                            <input asp-for="AltBaslik_RU" class="form-control" />
+                            <span asp-validation-for="AltBaslik_RU" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label asp-for="Sira" class="form-label"></label>
+                            <input asp-for="Sira" type="number" class="form-control" />
+                            <span asp-validation-for="Sira" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-4 d-flex align-items-center">
+                            <div class="form-check form-switch mt-4">
+                                <input asp-for="Aktif" class="form-check-input" type="checkbox" />
+                                <label asp-for="Aktif" class="form-check-label"></label>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <label class="form-label d-block">Mevcut Görsel</label>
+                            @if (!string.IsNullOrEmpty(Model.ResimYolu))
+                            {
+                                <img src="@Url.Content(Model.ResimYolu)" alt="Slider Görseli" class="img-thumbnail mb-2" style="max-width: 320px;" />
+                            }
+                            else
+                            {
+                                <p class="text-muted">Herhangi bir görsel bulunamadı.</p>
+                            }
+                        </div>
+
+                        <div class="col-12">
+                            <label asp-for="Resim" class="form-label"></label>
+                            <input asp-for="Resim" type="file" class="form-control" accept="image/*" />
+                            <span asp-validation-for="Resim" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="text-end mt-4">
+                        <a asp-action="Index" asp-controller="AdminSlider" asp-area="Admin" class="btn btn-danger">Geri Dön</a>
+                        <button type="submit" class="btn btn-secondary">Güncelle</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
