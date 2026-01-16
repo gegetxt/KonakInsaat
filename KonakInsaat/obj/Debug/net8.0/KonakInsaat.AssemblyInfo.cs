@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KonakInsaat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb4cbc7b923bb22d9afd6eaa9115e6e84933704a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba64f23c2b073d9b74e44895de0652b7d909e7cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("KonakInsaat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KonakInsaat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
