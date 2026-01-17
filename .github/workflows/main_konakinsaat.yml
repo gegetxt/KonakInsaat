@@ -52,4 +52,4 @@ jobs:
           app-name: 'konakinsaat'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9EB307C3212C4DF0B7B9ED5604A890A7 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_89E3840AF7AC427EB4E5DC48FB146A95 }}
